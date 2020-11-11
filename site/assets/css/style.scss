@@ -58,6 +58,12 @@ ul.post-list {
     ul, ol {
       padding-left: 40px;
     }
+    ul li {
+      list-style: disc;
+    }
+    ol li {
+      list-style: decimal;
+    }
   }
 
   h3:before {
