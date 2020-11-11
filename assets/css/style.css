@@ -1006,6 +1006,10 @@ ul.post-list {
 
 #main-content .post-content ul, #main-content .post-content ol {
   padding-left: 40px; }
+#main-content .post-content ul li {
+  list-style: disc; }
+#main-content .post-content ol li {
+  list-style: decimal; }
 #main-content h3:before {
   content: '>';
   margin-left: -1em; }
