@@ -5,8 +5,8 @@
     <description>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</description>
     <link>https://kube101.jeffgeerling.com/</link>
     <atom:link href="https://kube101.jeffgeerling.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Nov 2020 18:41:00 +0000</pubDate>
-    <lastBuildDate>Wed, 11 Nov 2020 18:41:00 +0000</lastBuildDate>
+    <pubDate>Wed, 11 Nov 2020 19:10:37 +0000</pubDate>
+    <lastBuildDate>Wed, 11 Nov 2020 19:10:37 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -39,7 +39,7 @@
 
 &lt;h3 id=&quot;special-thanks&quot;&gt;Special thanks&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.amazee.io&quot;&gt;amazee.io​&lt;/a&gt; is a global Managed Service Provider delivering secure, enterprise-grade container hosting, leveraging the open source application delivery platform Lagoon – purposely built for Kubernetes-based modern cloud environments.&lt;/p&gt;
+&lt;p&gt;Special thanks to &lt;a href=&quot;https://www.amazee.io&quot;&gt;amazee.io​&lt;/a&gt; for sponsoring this series. amazee.io is a global Managed Service Provider delivering secure, enterprise-grade container hosting, leveraging the open source application delivery platform &lt;a href=&quot;https://lagoon.sh&quot;&gt;Lagoon&lt;/a&gt; – purposely built for Kubernetes-based modern cloud environments.&lt;/p&gt;
 
 &lt;p&gt;They empower large-scale organizations with better deployment processes, the freedom of local development, a flexible container-based hosting platform that can be located anywhere in the world, and 24/7 white-glove support and services.&lt;/p&gt;
 </description>
