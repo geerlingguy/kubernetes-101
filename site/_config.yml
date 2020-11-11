@@ -10,7 +10,7 @@ twitter_username: geerlingguy
 github_username:  geerlingguy
 permalink: /:year/:title
 paginate: 7
-post_preview_words: 90
+post_preview_words: 1000
 
 # Build settings
 theme: jekyll-theme-architect
