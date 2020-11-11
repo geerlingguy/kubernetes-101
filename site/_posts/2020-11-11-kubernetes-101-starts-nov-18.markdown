@@ -30,4 +30,4 @@ Even if you have already used a managed Kubernetes service before, learn more ab
 
 ### Special thanks
 
-Special thanks to the series sponsor, [Amazee.io](https://www.amazee.io). Amazee offers fully managed Kubernetes clusters, and they take away the stressful work of managing Kubernetes itself, so you can focus more on the software you run on your clusters. They also maintain [Lagoon](https://lagoon.readthedocs.io/en/v1.10.0/), which runs on Kubernetes and lets you deploy your applications automatically, enabling powerful and easy GitOps workflows.
+Special thanks to the series sponsor, [amazee.io](https://www.amazee.io). amazee.io offers fully managed Kubernetes clusters, taking away the stressful work of managing Kubernetes itself, so you can focus more on the software you run on your clusters. They also maintain [Lagoon](https://lagoon.readthedocs.io/en/v1.10.0/), which runs on Kubernetes and lets you deploy your applications automatically, enabling powerful and easy GitOps workflows.
