@@ -4,7 +4,7 @@ date: 2020-11-11 10:10:00 -0600
 categories: announcements
 layout: post
 ---
-Kubernetes 101 is a new educational video series by Jeff Geerling, and the first live episode will premiere on YouTube on November 18, 2020.
+Kubernetes 101 is a new educational video series by Jeff Geerling, and the first live episode will premiere on YouTube on **November 18, 2020 at 11 a.m. US Eastern**!
 
 Jeff Geerling is the author of bestselling book [Ansible for DevOps](https://www.ansiblefordevops.com), and streamed a very popular [Ansible 101](https://www.jeffgeerling.com/blog/2020/ansible-101-jeff-geerling-youtube-streaming-series) series earlier this year on his YouTube channel. Jeff is also writing [Ansible for Kubernetes](https://www.ansibleforkubernetes.com), and has maintained a Raspberry Pi Kubernetes cluster for many years, the [Raspberry Pi Dramble](http://www.pidramble.com).
 
