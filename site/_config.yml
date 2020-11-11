@@ -1,0 +1,34 @@
+---
+title: Kubernetes 101
+email: your-email@example.com
+description: >-
+  A YouTube streaming series on Kubernetes and container-based infrastructure by
+  Jeff Geerling.
+baseurl: ""
+url: "https://kube101.jeffgeerling.com"
+twitter_username: geerlingguy
+github_username:  geerlingguy
+permalink: /:year/:title
+paginate: 7
+post_preview_words: 90
+
+# Build settings
+theme: jekyll-theme-architect
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+youtube:
+  show_subscribe: true
+  channel_url: https://www.youtube.com/c/JeffGeerling
+
+github:
+  is_project_page: true
+  repository_url: https://github.com/geerlingguy/kubernetes-101
+  repository_name: Kubernetes 101
+  owner_url: https://github.com/geerlingguy
+  owner_name: geerlingguy
+
+exclude:
+  - Gemfile
+  - Gemfile.lock

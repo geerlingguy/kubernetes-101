@@ -1,0 +1,13 @@
+<aside id="sidebar">
+  {% if site.youtube.show_subscribe %}
+    <a href="{{ site.youtube.channel_url }}"><img src="/assets/images/subscribe-youtube.png" class="youtube-subscribe" width="100%" height="auto"></a>
+    <p>Subscribe to <a href="{{ site.youtube.channel_url }}">Jeff Geerling's YouTube channel</a> so you don't miss an episode!</p>
+  {% endif %}
+
+  <a href="https://www.ansibleforkubernetes.com"><img src="/assets/images/ansible-for-kubernetes.jpg" class="book-cover" width="100%" height="auto"></a>
+  <p>Buy <a href="https://www.ansibleforkubernetes.com">Ansible for Kubernetes</a>, Jeff Geerling's latest book!
+
+  {% if site.github.is_project_page %}
+    <p class="repo-owner">This <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> website is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> on GitHub.</p>
+  {% endif %}
+</aside>

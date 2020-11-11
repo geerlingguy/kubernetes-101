@@ -1,0 +1,99 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  color: #222;
+}
+
+header .site-title {
+  font-family: 'Myriad Pro', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-weight: bold;
+  width: 540px;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  font-size: 72px;
+  line-height: 1;
+  color: #fff;
+  letter-spacing: -1px;
+}
+
+header h2 {
+  color: #ecf8ff;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  width: 100%;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.next,
+.previous {
+  font-weight: bold;
+  margin: 0 1em;
+}
+
+.disabled {
+  color: #828282;
+}
+
+ul.post-list {
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+.post-meta {
+  color: #999;
+  margin: 0 0 .5em;
+  font-style: italic;
+}
+
+#main-content {
+  .post-content {
+    ul, ol {
+      padding-left: 40px;
+    }
+  }
+
+  h3:before {
+    content: '>';
+    margin-left: -1em;
+  }
+
+  h2 {
+    font-family: 'Myriad Pro', 'Helvetica Neue', Helvetica, Arial, serif;
+  }
+
+  h2:before {
+    content: '>';
+  }
+
+  h1 {
+    font-family: 'Myriad Pro', 'Helvetica Neue', Helvetica, Arial, serif;
+    line-height: 1.1em;
+    margin-bottom: .5em;
+    font-size: 2.2em;
+    text-indent: 0;
+  }
+
+  h1:before {
+    content: '>';
+  }
+}
+
+.youtube-subscribe,
+.book-cover {
+  max-width: 225px;
+}
+
+aside#sidebar {
+  p.repo-owner,
+  p.repo-owner a {
+    font-weight: normal;
+  }
+}

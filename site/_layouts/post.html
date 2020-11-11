@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="{{ '/' | absolute_url }}">
+          <div class="site-title">{{ site.title | default: site.github.repository_name }}</div>
+        </a>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1 class="page-title">{{ page.title }}</h1>
+          <div class="post-meta">
+            {{ page.date | date: "%b %-d, %Y" }}
+          </div>
+          <div class="post-content" itemprop="articleBody">
+            {{ content }}
+          </div>
+        </section>
+
+        {% include sidebar.html %}
+      </div>
+    </div>
+  </body>
+</html>
