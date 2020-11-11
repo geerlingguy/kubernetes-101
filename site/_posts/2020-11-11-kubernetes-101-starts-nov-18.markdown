@@ -30,6 +30,6 @@ Even if you have already used a managed Kubernetes service before, learn more ab
 
 ### Special thanks
 
-[amazee.io​](https://www.amazee.io) is a global Managed Service Provider delivering secure, enterprise-grade container hosting, leveraging the open source application delivery platform Lagoon – purposely built for Kubernetes-based modern cloud environments.
+Special thanks to [amazee.io​](https://www.amazee.io) for sponsoring this series. amazee.io is a global Managed Service Provider delivering secure, enterprise-grade container hosting, leveraging the open source application delivery platform [Lagoon](https://lagoon.sh) – purposely built for Kubernetes-based modern cloud environments.
 
 They empower large-scale organizations with better deployment processes, the freedom of local development, a flexible container-based hosting platform that can be located anywhere in the world, and 24/7 white-glove support and services.
