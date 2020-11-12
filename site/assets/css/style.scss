@@ -10,10 +10,10 @@ body {
 header .site-title {
   font-family: 'Myriad Pro', 'Helvetica Neue', Helvetica, Arial, serif;
   font-weight: bold;
-  width: 540px;
+  width: 100%;
   margin-top: 0;
   margin-bottom: 0.2em;
-  font-size: 72px;
+  font-size: 5em;
   line-height: 1;
   color: #fff;
   letter-spacing: -1px;
@@ -50,9 +50,14 @@ header h2 {
 
 ul.post-list {
   padding: 0;
+  margin: 0;
 
   li {
     list-style: none;
+  }
+
+  li:first-of-type h2 {
+    margin-top: 0;
   }
 }
 
@@ -110,5 +115,33 @@ aside#sidebar {
   p.repo-owner,
   p.repo-owner a {
     font-weight: normal;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header .site-title {
+    font-size: 3em;
+  }
+
+  header h2 {
+    font-size: 1.5em;
+  }
+
+  #main-content h2,
+  #main-content h3 {
+    text-indent: 0;
+  }
+
+  #main-content h2:before {
+    content: none;
+  }
+
+  #main-content h3:before {
+    content: none;
+    margin-left: -1em;
+  }
+
+  aside#sidebar {
+    text-align: center;
   }
 }
