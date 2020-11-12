@@ -30,6 +30,10 @@ This series is meant for complete beginners to Kubernetes and cloud-native deplo
 
 Even if you have already used a managed Kubernetes service before, learn more about how everything works under the hood through this free series on YouTube!
 
+### Episodes
+
+The full list of episodes will be posted soon!
+
 ### Special thanks
 
 Special thanks to [amazee.io​](https://www.amazee.io) for sponsoring this series. amazee.io is a global Managed Service Provider delivering secure, enterprise-grade container hosting, leveraging the open source application delivery platform [Lagoon](https://lagoon.sh) – purposely built for Kubernetes-based modern cloud environments.
