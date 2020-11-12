@@ -118,7 +118,17 @@ aside#sidebar {
   }
 }
 
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+  img {
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 767px) {
+  img {
+    height: auto;
+  }
+
   header .site-title {
     font-size: 3em;
   }
