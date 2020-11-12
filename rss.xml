@@ -5,8 +5,8 @@
     <description>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</description>
     <link>https://kube101.jeffgeerling.com/</link>
     <atom:link href="https://kube101.jeffgeerling.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 Nov 2020 15:29:18 +0000</pubDate>
-    <lastBuildDate>Thu, 12 Nov 2020 15:29:18 +0000</lastBuildDate>
+    <pubDate>Thu, 12 Nov 2020 15:29:47 +0000</pubDate>
+    <lastBuildDate>Thu, 12 Nov 2020 15:29:47 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -38,6 +38,10 @@
 &lt;p&gt;This series is meant for complete beginners to Kubernetes and cloud-native deployment. If you’ve dabbled in Docker, or even if you’ve never used it before, you will learn a lot about containers, Kubernetes, and cloud-native computing.&lt;/p&gt;
 
 &lt;p&gt;Even if you have already used a managed Kubernetes service before, learn more about how everything works under the hood through this free series on YouTube!&lt;/p&gt;
+
+&lt;h3 id=&quot;episodes&quot;&gt;Episodes&lt;/h3&gt;
+
+&lt;p&gt;The full list of episodes will be posted soon!&lt;/p&gt;
 
 &lt;h3 id=&quot;special-thanks&quot;&gt;Special thanks&lt;/h3&gt;
 
