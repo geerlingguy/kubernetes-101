@@ -2,7 +2,7 @@
 
 Date: November 18, 2020
 
-Video URL: TODO
+Video URL: https://www.youtube.com/watch?v=IcslsH7OoYo
 
 Outline:
 
@@ -11,3 +11,7 @@ Outline:
   - Installing Minikube
   - Running our first app on Kubernetes
   - Where to get help, and where to find community.
+
+## Building the example Docker image
+
+TODO.
