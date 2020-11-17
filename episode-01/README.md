@@ -14,4 +14,14 @@ Outline:
 
 ## Building the example Docker image
 
-TODO.
+Build the image:
+
+    docker build -t geerlingguy/kube101:intro
+
+Run the image:
+
+    docker run -d -p 80:80 geerlingguy/kube101:intro
+
+Access the demo:
+
+    http://localhost
