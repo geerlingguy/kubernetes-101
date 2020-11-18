@@ -18,6 +18,11 @@ layout: post
   - Kubernetes origins and the CNCF
   - Different ways you can try Kubernetes (Minikube, KinD, K3s, etc.)
   - Building our first Kubernetes cluster with Minikube
+  - Where to go for help and the Kubernetes Community
+
+### Examples from this Episode
+
+Check out the [Instructions for Minikube](https://github.com/geerlingguy/kubernetes-101/tree/master/episode-01#instructions-for-minikube) if you want to follow along with the list of commands Jeff ran during the video!
 
 ### Don't miss out!
 
