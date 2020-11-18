@@ -6,7 +6,11 @@ layout: post
 ---
 [Episode 1](https://www.youtube.com/watch?v=IcslsH7OoYo) of Kubernetes 101 is here! The episode was streamed live on November 18, 2020, but you can view the video on-demand, free forever—just click the image below:
 
-<p style="text-align: center;"><a href="https://www.youtube.com/watch?v=IcslsH7OoYo"><img src="/assets/images/episode-01.jpg" width="600" height="338" alt="Kubernetes 101 - Episode 1 - Hello, Kubernetes!"></a></p>
+<div style="text-align: center;" class="thumb-wrapper">
+  <a href="https://www.youtube.com/watch?v=IcslsH7OoYo">
+    <img src="/assets/images/episode-01.jpg" width="600" height="338" alt="Kubernetes 101 - Episode 1 - Hello, Kubernetes!" class="parent-img-responsive"><span></span>
+  </a>
+</div>
 
 ### Topics Covered in this Episode
 

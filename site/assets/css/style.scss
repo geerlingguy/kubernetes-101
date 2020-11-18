@@ -67,6 +67,34 @@ ul.post-list {
   font-style: italic;
 }
 
+.thumb-wrapper {
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  span {
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: none;
+    background: transparent url(/assets/images/play-button.png) no-repeat;
+    background-position: center;
+    opacity: 90%;
+  }
+
+  span:hover {
+    opacity: 100%;
+  }
+}
+
 #main-content {
   .post-content {
     ul, ol {
