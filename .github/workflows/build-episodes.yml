@@ -10,6 +10,16 @@ jobs:
   docker-image-builds:
     name: Docker image builds
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - episode: '01'
+            dockerfile: Dockerfile
+            tag: intro
+          - episode: '02'
+            dockerfile: Dockerfile
+            tag: hello-go
+
     steps:
       - uses: actions/checkout@v2
       - uses: docker/setup-qemu-action@v1
@@ -24,8 +34,8 @@ jobs:
       - name: Build and push image.
         uses: docker/build-push-action@v2
         with:
-          context: ./episode-01/
-          file: ./episode-01/Dockerfile
+          context: ./episode-${{ matrix.episode }}/
+          file: ./episode-${{ matrix.episode }}/${{ matrix.dockerfile }}
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: geerlingguy/kube101:intro
+          tags: geerlingguy/kube101:${{ matrix.tag }}

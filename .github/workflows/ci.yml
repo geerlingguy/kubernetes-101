@@ -1,0 +1,25 @@
+---
+name: CI
+'on':
+  pull_request:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "40 5 * * 0"
+
+jobs:
+  episode-2:
+    name: Episode 2
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-go@v2
+        with:
+          go-version: "1.15.x"
+
+      - name: Run hello Go app tests.
+        run: go test
+        working-directory: episode-02/cmd/hello
