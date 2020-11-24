@@ -7,6 +7,15 @@ body {
   color: #222;
 }
 
+table {
+  border: none;
+  margin-bottom: 1em;
+}
+
+td, th {
+  padding: 1px 5px;
+}
+
 header .site-title {
   font-family: 'Myriad Pro', 'Helvetica Neue', Helvetica, Arial, serif;
   font-weight: bold;

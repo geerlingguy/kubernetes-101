@@ -2,7 +2,9 @@
 
 Date: November 25, 2020
 
-Video URL: TODO
+Video URL: https://www.youtube.com/watch?v=AHDrejEv0SM
+
+Web page for episode: TBD
 
 Outline:
 
