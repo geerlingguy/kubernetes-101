@@ -39,13 +39,26 @@ After you're finished, you can remove the binary with `rm hello`.
 
 ## Build the 'Hello Go' Docker container image
 
-TODO.
+Next up, we want to set up a container build environment that can build the Go application and then also run it (but without all the Go language cruft) in a trimmed down container image.
+
+There is a `Dockerfile` in this directory containing a multi-stage Docker build layout which first builds the Go app using the official `golang` Docker image, then builds the final container based on Alpine Linux (using the official `alpine` Docker image).
+
+To build the container, run:
 
     docker build -t geerlingguy/kube101-go .
-    docker run --rm -p 8180:8180 geerlingguy/kube101-go
 
-TODO.
+Once the container is built, you can see it in your list of `docker images`, and you can run it with the command:
+
+    docker run --rm -p 8180:8180 geerlingguy/kube101-go
 
 ## Push the container image to a private Docker registry
 
-TODO.
+When you're satisfied the container image works correctly, go ahead and push it up to a Docker registry.
+
+For my example, I'm pushing it to a private Docker Hub repository named `geerlingguy/kube101-go`:
+
+    docker push geerlingguy/kube101-go
+
+> Note: Pushing to a registry typically requires authentication. Please read the documentation for a guide on how to make sure you are authenticated to your Docker Hub (or other provider) account.
+>
+> Also, it's likely you won't be able to push to my namespace, so you might want to try using your own namespace instead of `geerlingguy` ;-)
