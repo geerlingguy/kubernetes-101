@@ -5,8 +5,8 @@
     <description>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</description>
     <link>https://kube101.jeffgeerling.com/</link>
     <atom:link href="https://kube101.jeffgeerling.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Nov 2020 15:02:57 +0000</pubDate>
-    <lastBuildDate>Wed, 25 Nov 2020 15:02:57 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Nov 2020 15:13:29 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Nov 2020 15:13:29 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -107,13 +107,13 @@
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Nov 18, 2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://kube101.jeffgeerling.com/2020/episode-1-hello-kubernetes&quot;&gt;&lt;strong&gt;Hello, Kubernetes!&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2020/episode-1-hello-kubernetes&quot;&gt;&lt;strong&gt;Hello, Kubernetes!&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=IcslsH7OoYo&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/tree/master/episode-01&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;2&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Nov 25, 2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Containers&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2020/episode-2-containers&quot;&gt;&lt;strong&gt;Containers&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AHDrejEv0SM&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-02&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
