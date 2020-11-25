@@ -15,6 +15,7 @@ func HelloServer(w http.ResponseWriter, r *http.Request) {
 func main() {
     var addr string = ":8180"
     handler := http.HandlerFunc(HelloServer)
+    log.Printf("Starting webserver on %s", addr)
     if err := http.ListenAndServe(addr, handler); err != nil {
         log.Fatalf("Could not listen on port %s %v", addr, err)
     }
