@@ -1,6 +1,6 @@
 ---
 title: "Episode 2: Containers"
-date: 2020-11-25 08:40:00 -0600
+date: 2020-11-25 09:00:00 -0600
 categories: episodes, containers, docker
 layout: post
 ---
@@ -23,7 +23,7 @@ layout: post
 
 ### Examples from this Episode
 
-TODO.
+Check out the [Instructions for 'Hello Go' app](https://github.com/geerlingguy/kubernetes-101/tree/master/episode-02#instructions-for-hello-go-app) and [Build the 'Hello Go' Docker container image](https://github.com/geerlingguy/kubernetes-101/tree/master/episode-02#build-the-hello-go-docker-container-image) if you want to follow along with the list of commands Jeff ran during the video!
 
 ### Don't miss out!
 
