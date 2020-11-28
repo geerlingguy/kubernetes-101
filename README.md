@@ -25,7 +25,7 @@ Check out Jeff Geerling's book, [Ansible for Kubernetes](https://www.ansiblefork
 
 ## Static Jekyll site
 
-This GitHub project includes a Jekyll static site configuration inside the `site` folder, which is used by a GitHub Actions workflow to build the static site displayed at [https://kube101.jeffgeerling.com](http://kube101.jeffgeerling.com).
+This GitHub project includes a Jekyll static site configuration inside the `site` folder, which is used by a GitHub Actions workflow to build the static site displayed at [https://kube101.jeffgeerling.com](https://kube101.jeffgeerling.com).
 
 ### Building the site locally
 
