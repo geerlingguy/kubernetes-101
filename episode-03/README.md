@@ -2,13 +2,12 @@
 
 Date: December 2, 2020
 
-Video URL: TODO
+Video URL: https://www.youtube.com/watch?v=nn9J9sWLj_w
 
 Outline:
 
-  - Deploying our Go App into Kubernetes
-  - Exposing the Go App to the world
-  - Scaling the Go App horizontally
-  - Updating the Go App container image
-  - Deploying the updated Go App into Kubernetes
+  - Building a test cluster in the cloud
+  - Deploying our Hello Go App into Kubernetes
+  - Connecting a private image registry to Kubernetes
+  - Exposing, scaling, and updating our App
   - Rolling back a deployment
