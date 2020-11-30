@@ -5,8 +5,8 @@
     <description>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</description>
     <link>https://kube101.jeffgeerling.com/</link>
     <atom:link href="https://kube101.jeffgeerling.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Nov 2020 05:20:49 +0000</pubDate>
-    <lastBuildDate>Sat, 28 Nov 2020 05:20:49 +0000</lastBuildDate>
+    <pubDate>Mon, 30 Nov 2020 20:18:55 +0000</pubDate>
+    <lastBuildDate>Mon, 30 Nov 2020 20:18:55 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -120,7 +120,7 @@
       &lt;td style=&quot;text-align: left&quot;&gt;3&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Dec 2, 2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Deploying Apps&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;TBD&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nn9J9sWLj_w&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-03&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;4&lt;/td&gt;
