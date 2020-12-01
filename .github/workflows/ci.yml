@@ -9,8 +9,8 @@ name: CI
     - cron: "40 5 * * 0"
 
 jobs:
-  episode-2:
-    name: Episode 2
+  hello-go:
+    name: Hello Go
     runs-on: ubuntu-latest
 
     steps:
@@ -20,6 +20,10 @@ jobs:
         with:
           go-version: "1.15.x"
 
-      - name: Run hello Go app tests.
+      - name: Run hello Go app tests (Episode 2).
+        run: go test
+        working-directory: episode-02/cmd/hello
+
+      - name: Run hello Go app tests (Episode 3).
         run: go test
         working-directory: episode-02/cmd/hello

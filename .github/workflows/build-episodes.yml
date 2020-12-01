@@ -13,12 +13,27 @@ jobs:
     strategy:
       matrix:
         include:
+          # Episode 1.
           - episode: '01'
             dockerfile: Dockerfile
+            repo: kube101
             tag: intro
+
+          # Episode 2.
           - episode: '02'
             dockerfile: Dockerfile
+            repo: kube101
             tag: hello-go
+          - episode: '02'
+            dockerfile: Dockerfile
+            repo: kube101-go
+            tag: '1.0.0'
+
+          # Episode 3.
+          - episode: '03'
+            dockerfile: Dockerfile
+            repo: kube101-go
+            tag: '1.1.0'
 
     steps:
       - uses: actions/checkout@v2
@@ -38,4 +53,4 @@ jobs:
           file: ./episode-${{ matrix.episode }}/${{ matrix.dockerfile }}
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: geerlingguy/kube101:${{ matrix.tag }}
+          tags: geerlingguy/${{ matrix.repo }}:${{ matrix.tag }}
