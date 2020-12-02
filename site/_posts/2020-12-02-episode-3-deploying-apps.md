@@ -22,7 +22,14 @@ layout: post
 
 ### Examples from this Episode
 
-TBD.
+Please check out the following examples in the [Episode 3 README](https://github.com/geerlingguy/kubernetes-101/tree/master/episode-03):
+
+  - Creating a Linode Cluster for cloud-based testing
+  - Deploying Hello Go into Kubernetes
+  - Exposing the Hello Go App
+  - Scaling the Hello Go App
+  - Updating the Go App
+  - Rolling back the Deployment
 
 ### Don't miss out!
 
