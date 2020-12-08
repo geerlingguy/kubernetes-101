@@ -14,7 +14,13 @@ layout: post
 
 ### Topics Covered in this Episode
 
-  - TODO
+  - Deploying Drupal on a traditional LAMP server
+  - Deploying Drupal into Kubernetes using Helm
+  - Deploying Drupal into a multi-node Kubernetes cluster
+  - Scaling Drupal horizontally reveals some problems:
+    - Persistent files
+    - Persistent database
+    - How do we serve from a domain and get TLS working?
 
 ### Examples from this Episode
 
