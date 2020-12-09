@@ -12,7 +12,7 @@ Click on an episode title to see the resources for that episode:
   - [Episode 2 - Containers](episode-02): November 25, 2020
   - [Episode 3 - Deploying Apps](episode-03): December 2, 2020
   - [Episode 4 - Real-world apps](episode-04): December 9, 2020
-  - [Episode 5 - Scaling a Drupal Deployment](episode-05): December 16, 2020
+  - [Episode 5 - Scaling Drupal in K8s](episode-05): December 16, 2020
   - [Episode 6 - Hello, Operator!](episode-06): January 6, 2021
   - [Episode 7 - Kube, Meet Pi](episode-07): January 13, 2021
   - [Episode 8 - TBD](episode-08): January 20, 2021
