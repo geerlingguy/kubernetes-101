@@ -5,8 +5,8 @@
     <description>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</description>
     <link>https://kube101.jeffgeerling.com/</link>
     <atom:link href="https://kube101.jeffgeerling.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Dec 2020 15:11:42 +0000</pubDate>
-    <lastBuildDate>Wed, 09 Dec 2020 15:11:42 +0000</lastBuildDate>
+    <pubDate>Wed, 09 Dec 2020 17:36:01 +0000</pubDate>
+    <lastBuildDate>Wed, 09 Dec 2020 17:36:01 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -233,7 +233,7 @@
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;5&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Dec 16, 2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Scaling a Drupal Deployment&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Scaling Drupal in K8s&lt;/strong&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;TBD&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
