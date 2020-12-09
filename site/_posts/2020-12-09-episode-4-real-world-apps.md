@@ -26,7 +26,9 @@ layout: post
 
 Please check out the following examples in the [Episode 4 README](https://github.com/geerlingguy/kubernetes-101/tree/master/episode-04):
 
-  - TODO
+  - Installing Drupal on a Traditional LAMP server
+  - Installing Drupal on Kubernetes using Bitnami's Helm Chart
+  - Drupal Directly in Kubernetes - Let's Do it [Mostly] Right!
 
 ### Don't miss out!
 

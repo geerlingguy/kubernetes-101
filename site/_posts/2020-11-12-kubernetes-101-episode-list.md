@@ -11,7 +11,7 @@ Click on an episode title to go to its web page with more information about the 
 | 1 | Nov 18, 2020 | [**Hello, Kubernetes!**]({% post_url 2020-11-18-episode-1-hello-kubernetes %}) | [Video](https://www.youtube.com/watch?v=IcslsH7OoYo), [Examples](https://github.com/geerlingguy/kubernetes-101/tree/master/episode-01) |
 | 2 | Nov 25, 2020 | [**Containers**]({% post_url 2020-11-25-episode-2-containers %}) | [Video](https://www.youtube.com/watch?v=AHDrejEv0SM), [Examples](https://github.com/geerlingguy/kubernetes-101/blob/master/episode-02) |
 | 3 | Dec 2, 2020 | [**Deploying Apps**]({% post_url 2020-12-02-episode-3-deploying-apps %}) | [Video](https://www.youtube.com/watch?v=nn9J9sWLj_w), [Examples](https://github.com/geerlingguy/kubernetes-101/blob/master/episode-03) |
-| 4 | Dec 9, 2020 | **Real-world apps** | TBD |
+| 4 | Dec 9, 2020 | [**Real-world apps**]({% post_url 2020-12-09-episode-4-real-world-apps %}) | [Video](https://www.youtube.com/watch?v=mrxA8g3w6ic), [Examples](https://github.com/geerlingguy/kubernetes-101/blob/master/episode-04) |
 | 5 | Dec 16, 2020 | **Scaling a Drupal Deployment** | TBD |
 | 6 | Jan 6, 2021 | **Hello, Operator!** | TBD |
 | 7 | Jan 13, 2021 | **Kube, Meet Pi** | TBD |
