@@ -1,5 +1,7 @@
 # Kubernetes 101
 
+[![CI](https://github.com/geerlingguy/kubernetes-101/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/kubernetes-101/actions?query=workflow%3ACI)
+
 A YouTube live streaming series by Jeff Geerling.
 
 This repository contains code examples from the series and the code that powers the [Kubernetes 101 website](https://kube101.jeffgeerling.com).
