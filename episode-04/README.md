@@ -102,6 +102,6 @@ We are going to run through how to do everything step by step, and hopefully hav
 
 I'm going to switch things up and deploy to a real Kubernetes cluster, in this case a cluster running on Linode (since they are still offering a [free $100 credit using this link](https://linode.com/geerling)).
 
-### TODO
+### Deploying the Drupal Kubernetes Manifests
 
-TODO.
+Please see the [README inside the k8s-manifests](k8s-manifests/README.md) for further instructions.
