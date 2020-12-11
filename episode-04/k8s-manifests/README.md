@@ -66,7 +66,7 @@ Now you can take the IP address of any node, and pair that with the NodePort tha
 And you can access the Drupal container's Apache logs with:
 
 ```
-kubectl logs -n -f drupal -l app=drupal
+kubectl logs -f -n drupal -l app=drupal
 ```
 
 Install the Drupal site using the UI, and create an Article (under Content > Add content > Article) with an image inside the Body text.
