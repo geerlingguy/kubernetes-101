@@ -1,4 +1,4 @@
-# Episode 7 - Kube, Meet Pi
+# Episode 7 - Hello, Operator!
 
 Date: January 13, 2021
 

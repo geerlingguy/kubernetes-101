@@ -1,4 +1,4 @@
-# Episode 8 - TBD
+# Episode 8 - Kube, Meet Pi
 
 Date: January 20, 2021
 
