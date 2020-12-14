@@ -5,8 +5,8 @@
     <description>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</description>
     <link>https://kube101.jeffgeerling.com/</link>
     <atom:link href="https://kube101.jeffgeerling.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Dec 2020 04:10:30 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Dec 2020 04:10:30 +0000</lastBuildDate>
+    <pubDate>Mon, 14 Dec 2020 16:49:22 +0000</pubDate>
+    <lastBuildDate>Mon, 14 Dec 2020 16:49:22 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -234,24 +234,24 @@
       &lt;td style=&quot;text-align: left&quot;&gt;5&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Dec 16, 2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Scaling Drupal in K8s&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;TBD&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=euZdS5b2siA&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-05&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Jan 6, 2021&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Hello, Operator!&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;DNS, TLS, Cron, Logging&lt;/strong&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;TBD&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;7&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Jan 13, 2021&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Kube, Meet Pi&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Hello, Operator!&lt;/strong&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;TBD&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;8&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Jan 20, 2021&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;TBD&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Kube, Meet Pi&lt;/strong&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;TBD&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
