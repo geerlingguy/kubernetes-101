@@ -10,3 +10,5 @@
       changed_when: false
 
 - import_playbook: ../../main.yml
+  vars:
+    nfs_exports: []
