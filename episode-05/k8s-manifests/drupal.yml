@@ -34,7 +34,7 @@ spec:
   resources:
     requests:
       storage: 1Gi
-  storageClassName: rook-cephfs  # This is new!
+  storageClassName: nfs-client  # This is new!
 
 ---
 kind: Deployment

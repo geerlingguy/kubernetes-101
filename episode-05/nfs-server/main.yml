@@ -1,0 +1,16 @@
+---
+- hosts: nfs
+  become: true
+
+  vars:
+    nfs_exports: [ "/home/nfs *(rw,sync,no_root_squash)" ]
+
+  pre_tasks:
+    - name: Create a directory to share.
+      file:
+        path: /home/nfs
+        state: directory
+        mode: 0777
+
+  roles:
+    - role: geerlingguy.nfs

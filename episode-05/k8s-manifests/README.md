@@ -9,79 +9,28 @@ You can apply these manifests to any Kubernetes cluster (e.g. `minikube start` f
   - NFS: https://github.com/kubernetes-sigs/nfs-ganesha-server-and-external-provisioner
   - Maybe just use EFS ;)
 
+## Setting up an NFS Server
+
+I created an 8GB Linode with a Private IP address. Then I ran the Ansible playbook in the `nfs-server` directory to set it up.
+
 ## Configuring a shared filesystem for scalability
 
-TODO: Rook.
+TODO: Explain Rook and CephFS.
 
-First we'll deploy the Rook Ceph cluster operator, which will manage the Ceph cluster, into our Kubernetes cluster:
+TODO: Explain how I tried getting it working on Minikube, and Linode (manually and via Helm. It's complicated.
 
-```
-# Download the Rook codebase.
-git clone --single-branch --branch release-1.5 https://github.com/rook/rook.git
-cd rook/cluster/examples/kubernetes/ceph
+TODO: Explain other options (NFS, EFS, etc.).
 
-# Deploy all the common Rook configuration and operator.
-kubectl create -f crds.yaml -f common.yaml -f operator.yaml
-
-# TODO - Might have to `nano operator.yaml` and change `CSI_RBD_GRPC_METRICS_PORT` to `9093` — that is for DigitalOcean...
-
-# Watch for the operator container to be running:
-kubectl get pod -n rook-ceph -w
-```
-
-Next we'll deploy a Ceph cluster into Kubernetes:
+TODO: Explain NFS provisioner (server provisioner vs client provisioner, and the fact that everything was just moved around last month!)
 
 ```
-# See https://rook.github.io/docs/rook/v1.5/ceph-quickstart.html#cluster-environments
-
-# Create the Ceph cluster (for Linode/cloud environments).
-kubectl create -f cluster-on-pvc.yaml
-# NOTE: Need to change storageclass from 'gp2' to 'linode-block-storage' in TWO places — see cluster-on-pvc.patch
-
-# Create the Ceph cluster (for test environments like Minikube).
-# kubectl create -f cluster-test.yaml
-
-# Watch for all the other pods to be running:
-kubectl get pod -n rook-ceph -w
-# NOTE: This process can take 5-10 minutes (has to provision block storage, format it, configure it for the CephFS cluster, etc.)
+helm repo add ckotzbauer https://ckotzbauer.github.io/helm-charts
+helm install --set nfs.server=192.168.188.190 --set nfs.path=/home/nfs ckotzbauer/nfs-client-provisioner --version 1.0.2 --generate-name
 ```
 
-Use Rook's toolbox to check on the cluster's health:
+For the `nfs.server`, use the Private IPv4 address for your NFS server. For the `nfs.path`, set it to the path of an NFS share on that server.
 
-```
-# Deploy the Interactive toolbox (in this repo):
-kubectl create -f rook/toolbox.yml
-
-# Wait for the toolbox to be deployed:
-kubectl -n rook-ceph rollout status deploy/rook-ceph-tools
-
-# Once deployed, log into the toolbox with:
-kubectl -n rook-ceph exec -it deploy/rook-ceph-tools -- bash
-
-# Check the status inside the toolbox:
-ceph status
-
-(Should see 'HEALTH_OK').
-```
-
-Create a Ceph filesystem:
-
-```
-# Deploy a Ceph filesystem (in this repo):
-kubectl create -f rook/filesystem.yml
-
-# Wait for the pods to be Running:
-kubectl -n rook-ceph get pod -l app=rook-ceph-mds
-```
-
-Create a StorageClass for Ceph:
-
-```
-# Create a CephFS StorageClass (in this repo):
-kubectl create -f rook/storageclass.yml
-```
-
-## Configure Drupal to use a CephFS PVC
+## Configure Drupal to be able to scale
 
 TODO.
 
@@ -98,14 +47,12 @@ kubectl get deployments -n drupal -w
 
 TODO.
 
-CURRENTLY:
+```
+kubectl get service -n drupal
+```
 
-  - `kubectl describe pvc -n drupal drupal-files-pvc` never shows it get provisioned
-  - `kubectl logs -n rook-ceph -f csi-cephfsplugin-provisioner-7dc78747bf-8gxhh --all-containers --max-log-requests 6` shows that after a timeout period, it just gets stuck in a loop :(
-    - See: https://github.com/rook/rook/issues/6183#issuecomment-745060072
+TODO.
 
-TODO: More info here — https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ceph-cluster-within-kubernetes-using-rook
-
-## Configuring Horizontal Pod Autoscaling
+## Configure Horizontal Pod Autoscaling
 
 TODO.
