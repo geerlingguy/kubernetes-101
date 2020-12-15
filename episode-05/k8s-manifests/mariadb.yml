@@ -1,0 +1,70 @@
+---
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: mariadb-pvc
+  namespace: drupal
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+
+---
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: mariadb
+  namespace: drupal
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mariadb
+  template:
+    metadata:
+      labels:
+        app: mariadb
+    spec:
+      containers:
+        - name: mariadb
+          image: mariadb:10.5
+          ports:
+            - containerPort: 3306
+          env:
+            - name: MYSQL_DATABASE
+              value: drupal
+            - name: MYSQL_USER
+              value: drupal
+            - name: MYSQL_PASSWORD
+              value: drupal
+            - name: MYSQL_RANDOM_ROOT_PASSWORD
+              value: 'yes'
+          volumeMounts:
+            - mountPath: /var/lib/mysql/
+              name: database
+          resources:
+            limits:
+              cpu: '2'
+              memory: '512Mi'
+            requests:
+              cpu: '500m'
+              memory: '256Mi'
+      volumes:
+        - name: database
+          persistentVolumeClaim:
+            claimName: mariadb-pvc
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: mariadb
+  namespace: drupal
+spec:
+  ports:
+    - port: 3306
+      targetPort: 3306
+  selector:
+    app: mariadb

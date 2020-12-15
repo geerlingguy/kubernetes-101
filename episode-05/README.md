@@ -6,7 +6,7 @@ Video URL: https://www.youtube.com/watch?v=euZdS5b2siA
 
 Outline:
 
-  - Setting up persistent files to scale Drupal's deployment
+  - Setting up a shared filesystem to scale Drupal's deployment
   - Setting up Horizontal Pod Autoscaling
   - Options for High-Availability Databases
   - Pre-Christmas Q&A and Book Giveaway!

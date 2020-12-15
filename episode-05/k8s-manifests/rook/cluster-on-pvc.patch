@@ -1,0 +1,22 @@
+diff --git a/cluster/examples/kubernetes/ceph/cluster-on-pvc.yaml b/cluster/examples/kubernetes/ceph/cluster-on-pvc.yaml
+index 599d580e..36bc5cea 100644
+--- a/cluster/examples/kubernetes/ceph/cluster-on-pvc.yaml
++++ b/cluster/examples/kubernetes/ceph/cluster-on-pvc.yaml
+@@ -28,7 +28,7 @@ spec:
+     # size appropriate for monitor data will be used.
+     volumeClaimTemplate:
+       spec:
+-        storageClassName: gp2
++        storageClassName: linode-block-storage
+         resources:
+           requests:
+             storage: 10Gi
+@@ -125,7 +125,7 @@ spec:
+             requests:
+               storage: 10Gi
+           # IMPORTANT: Change the storage class depending on your environment (e.g. local-storage, gp2)
+-          storageClassName: gp2
++          storageClassName: linode-block-storage
+           volumeMode: Block
+           accessModes:
+             - ReadWriteOnce
