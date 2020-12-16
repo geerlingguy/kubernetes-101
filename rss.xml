@@ -5,9 +5,68 @@
     <description>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</description>
     <link>https://kube101.jeffgeerling.com/</link>
     <atom:link href="https://kube101.jeffgeerling.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Dec 2020 16:49:22 +0000</pubDate>
-    <lastBuildDate>Mon, 14 Dec 2020 16:49:22 +0000</lastBuildDate>
+    <pubDate>Wed, 16 Dec 2020 15:10:02 +0000</pubDate>
+    <lastBuildDate>Wed, 16 Dec 2020 15:10:02 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Episode 5: Scaling Drupal in K8s</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=euZdS5b2siA&quot;&gt;Episode 5&lt;/a&gt; is live! The episode streamed live on December 16, 2020, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
+  &lt;a href=&quot;https://www.youtube.com/watch?v=euZdS5b2siA&quot;&gt;
+    &lt;img src=&quot;/assets/images/episode-05.jpg&quot; width=&quot;600&quot; height=&quot;338&quot; alt=&quot;Kubernetes 101 - Episode 5 - Scaling Drupal in K8s&quot; class=&quot;parent-img-responsive&quot; /&gt;&lt;span&gt;&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;topics-covered-in-this-episode&quot;&gt;Topics Covered in this Episode&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Setting up a shared filesystem to scale Drupal’s deployment&lt;/li&gt;
+  &lt;li&gt;Setting up Horizontal Pod Autoscaling&lt;/li&gt;
+  &lt;li&gt;Options for High-Availability Databases&lt;/li&gt;
+  &lt;li&gt;Pre-Christmas Q&amp;amp;A and Book Giveaway!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;examples-from-this-episode&quot;&gt;Examples from this Episode&lt;/h3&gt;
+
+&lt;p&gt;Please check out the following examples in the &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/tree/master/episode-05&quot;&gt;Episode 5 README&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fixing the scalability issue with Drupal Pods&lt;/li&gt;
+  &lt;li&gt;Shared Storage Options: Rook and Ceph, Gluster, NFS, cloud services&lt;/li&gt;
+  &lt;li&gt;Set up an NFS Server&lt;/li&gt;
+  &lt;li&gt;Set up NFS client provisioner in K8s&lt;/li&gt;
+  &lt;li&gt;Reconfigure the Drupal PersistentVolumeClaim for NFS&lt;/li&gt;
+  &lt;li&gt;Deploy Drupal and MySQL (MariaDB)&lt;/li&gt;
+  &lt;li&gt;Scale Drupal up… and down!&lt;/li&gt;
+  &lt;li&gt;Set up &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;metrics-server&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Configuring Horizontal Pod Autoscaling (HPA) for Drupal&lt;/li&gt;
+  &lt;li&gt;Scaling Databases&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
+
+&lt;p&gt;All the episodes are being live streamed on Wednesdays on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss it!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Dec 2020 15:00:00 +0000</pubDate>
+        <link>https://kube101.jeffgeerling.com/2020/episode-5-scaling-drupal-in-k8s</link>
+        <guid isPermaLink="true">https://kube101.jeffgeerling.com/2020/episode-5-scaling-drupal-in-k8s</guid>
+        
+        
+        <category>episodes,</category>
+        
+        <category>apps,</category>
+        
+        <category>deployments,</category>
+        
+        <category>databases,</category>
+        
+        <category>filesystems,</category>
+        
+        <category>hpa</category>
+        
+      </item>
     
       <item>
         <title>Episode 4: Deploying Apps</title>
@@ -233,7 +292,7 @@
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;5&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Dec 16, 2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Scaling Drupal in K8s&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2020/episode-5-scaling-drupal-in-k8s&quot;&gt;&lt;strong&gt;Scaling Drupal in K8s&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=euZdS5b2siA&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-05&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
