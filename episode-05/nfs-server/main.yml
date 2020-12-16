@@ -1,0 +1,23 @@
+---
+- hosts: nfs
+  become: true
+
+  vars:
+    firewall_allowed_tcp_ports: ["22"]
+    firewall_additional_rules:
+      - iptables -A INPUT -p tcp -s 192.168.0.0/16 --dport 111 -m state --state NEW,ESTABLISHED -j ACCEPT
+      - iptables -A INPUT -p tcp -s 192.168.0.0/16 --dport 2049 -m state --state NEW,ESTABLISHED -j ACCEPT
+      - iptables -A INPUT -p udp -s 192.168.0.0/16 --dport 111 -m state --state NEW,ESTABLISHED -j ACCEPT
+      - iptables -A INPUT -p udp -s 192.168.0.0/16 --dport 2049 -m state --state NEW,ESTABLISHED -j ACCEPT
+    nfs_exports: [ "/home/nfs *(rw,sync,no_root_squash,no_subtree_check)" ]
+
+  pre_tasks:
+    - name: Create a directory to share.
+      file:
+        path: /home/nfs
+        state: directory
+        mode: 0777
+
+  roles:
+    - role: geerlingguy.firewall
+    - role: geerlingguy.nfs

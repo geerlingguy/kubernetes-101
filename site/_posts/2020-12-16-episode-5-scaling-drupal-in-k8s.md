@@ -14,7 +14,7 @@ layout: post
 
 ### Topics Covered in this Episode
 
-  - Setting up persistent files to scale Drupal's deployment
+  - Setting up a shared filesystem to scale Drupal's deployment
   - Setting up Horizontal Pod Autoscaling
   - Options for High-Availability Databases
   - Pre-Christmas Q&A and Book Giveaway!
@@ -23,7 +23,16 @@ layout: post
 
 Please check out the following examples in the [Episode 5 README](https://github.com/geerlingguy/kubernetes-101/tree/master/episode-05):
 
-  - TODO
+  - Fixing the scalability issue with Drupal Pods
+  - Shared Storage Options: Rook and Ceph, Gluster, NFS, cloud services
+  - Set up an NFS Server
+  - Set up NFS client provisioner in K8s
+  - Reconfigure the Drupal PersistentVolumeClaim for NFS
+  - Deploy Drupal and MySQL (MariaDB)
+  - Scale Drupal up... and down!
+  - Set up `metrics-server`
+  - Configuring Horizontal Pod Autoscaling (HPA) for Drupal
+  - Scaling Databases
 
 ### Don't miss out!
 
