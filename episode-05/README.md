@@ -33,7 +33,13 @@ But what if you're running a bare metal Kubernetes cluster on your own servers? 
 
 ### Rook and Ceph
 
-TODO: Explain how I tried getting it working on Minikube, and Linode (manually and via Helm. It's complicated.
+Initially, I was going to set up this episode's demo using [Rook](https://rook.io) to manage an in-cluster CephFS clustered filesystem.
+
+But after spending almost an entire workday trying to find a way to easily (and more importantly for this live series, _demonstrably_) deploy a Rook/CephFS cluster into Kubernetes—either in Minikube, Linode Kubernetes Engine, or even Amazon's EKS, I decided the complexity was not worth it.
+
+However, I am a strong believer in Rook and CephFS, and they make a potent combo for cloud-provider-agnostic flexible storage options. If you have the time and inclination, it is worth learning how they work, getting them running, and seeing if Rook might be the storage provisioner you should use for your cluster—especially if you're building on bare metal!
+
+Anyways, to keep things a little simpler, while still achieving the goal of having a shared storage provisioner running in the cluster for scalability, I switched gears.
 
 ### NFS
 
@@ -53,7 +59,16 @@ But before you do _that_, you'll need to configure the Kubernetes cluster _itsel
 
 ### Set up NFS client provisioner in K8s
 
-TODO: Explain NFS provisioner ([server provisioner](https://github.com/kubernetes-sigs/nfs-ganesha-server-and-external-provisioner) vs client provisioner, and the fact that everything was just moved around last month!)
+When you're searching around for how to configure NFS in Kubernetes so your Pods can use NFS-based volumes, you might run into a little confusion; originally, there were two provisioners:
+
+  - `nfs-server-provisioner`
+  - `nfs-client-provisioner`
+
+The NFS Server provisioner would run in-cluster NFS instances to allow pods to connect to them. And that's great and handy, but many people would rather manage NFS servers separate from their clusters, and that's where the NFS Client provisioner comes in—it assumes you have an NFS server or storage cluster running elsewhere, and provisions directories inside an NFS share for PVCs in your cluster.
+
+To add to the confusion, though, in 2020 both provisioners were moved and slightly renamed, the server provisioner moving to [nfs-ganesha-server-and-external-provisioner](https://github.com/kubernetes-sigs/nfs-ganesha-server-and-external-provisioner), and the client provisioner to [nfs-subdir-external-provisioner](https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner).
+
+To keep things simple, I'm just going to use a pre-existing Helm Chart to deploy the client provisioner:
 
 ```
 helm repo add ckotzbauer https://ckotzbauer.github.io/helm-charts
@@ -61,6 +76,8 @@ helm install --set nfs.server=192.168.166.68 --set nfs.path=/home/nfs ckotzbauer
 ```
 
 For the `nfs.server`, use the Private IPv4 address for your NFS server. For the `nfs.path`, set it to the path of an NFS share on that server.
+
+You can check if the provisioner is running with `kubectl get pods`; make sure an NFS provisioner pod is running.
 
 ### Deploy Drupal and MySQL (MariaDB)
 
@@ -119,7 +136,7 @@ So edit the Drupal deployment, setting `replicas: 5`:
 kubectl edit deployment -n drupal
 ```
 
-Then wait for the Deployment to report being up to date with three running instances:
+Then wait for the Deployment to report being up to date with five running instances:
 
 ```
 watch kubectl get deployment -n drupal drupal
@@ -139,7 +156,7 @@ If you set the deployment back to `replicas: 1`, the requests per second will li
 
 One of the often-touted features of Kubernetes is automatic scaling. What people probably _don't_ tell you is that, as with all things in life, nice things like autoscaling are _not_ free. You usually have to configure the cluster and your applications to make autoscaling actually work.
 
-### Setting up `metrics-server`
+### Set up `metrics-server`
 
 Many cluster environments do not include an essential component the [Horizontal Pod Autoscaler (HPA)](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/) relies on, namely the `metrics-server` component.
 
@@ -226,7 +243,7 @@ An alternative is to run single-Pod databases, without high availability, for ea
 
 Running things inside Kubernetes in a similar fashion is just as reliable, but could actually be more easily scalable through Kubernetes own tools, depending on the servers you set up.
 
-But running databases inside Kubernetes—even if you use something like [Vitess](https://vitess.io), Bitnami's [MariaDB Cluster Helm Chart](https://engineering.bitnami.com/articles/deploy-a-production-ready-mariadb-cluster-on-kubernetes-with-bitnami-and-helm.html), or Oracle's [MySQL Cluster Operator](https://github.com/oracle/mysql-operator)—is challenging.
+But running databases inside Kubernetes—even if you use something like [Vitess](https://vitess.io), Bitnami's [MariaDB Cluster Helm Chart](https://engineering.bitnami.com/articles/deploy-a-production-ready-mariadb-cluster-on-kubernetes-with-bitnami-and-helm.html), or Presslabs' [MySQL Cluster Operator](https://www.presslabs.com/docs/mysql-operator/)—is challenging.
 
 The more complex the setup, and the higher the requirements, the more you have to start considering things like:
 
