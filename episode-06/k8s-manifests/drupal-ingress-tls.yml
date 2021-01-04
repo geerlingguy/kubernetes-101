@@ -1,0 +1,21 @@
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: drupal
+  namespace: drupal
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    cert-manager.io/cluster-issuer: letsencrypt-prod  # This helps our ClusterIssuer identify this Ingress resource.
+spec:
+  tls:  # This describes the TLS configuration for our site.
+  - hosts:
+    - ep6.kube101.jeffgeerling.com
+    secretName: ep6-tls
+  rules:
+  - host: ep6.kube101.jeffgeerling.com
+    http:
+      paths:
+      - backend:
+          serviceName: drupal
+          servicePort: 80
