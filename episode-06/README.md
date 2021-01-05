@@ -110,7 +110,7 @@ Instead, I manually grabbed the IP address of the NodeBalancer Linode provisione
 
 At a certain scale, managing DNS manually is very inefficient!
 
-## Set up TLS with cert-manager
+## Set up TLS with cert-manager and Let's Encrypt
 
 Speaking of things hard to manage manually, most web applications should be set up so they are secured using TLS encryption, meaning you access them over encrypted HTTPS and not via plaintext HTTP.
 
@@ -136,7 +136,7 @@ Then add the `jetstack` Helm repository and install `cert-manager` from Jetstack
 
 ```
 helm repo add jetstack https://charts.jetstack.io
-helm install cert-manager jetstack/cert-manager --namespace cert-manager --version v1.1.0
+helm install cert-manager jetstack/cert-manager -n cert-manager --version v1.1.0
 ```
 
 Check that it's running:
@@ -212,25 +212,44 @@ Once you can verify the Kubernetes CronJob is running Drupal's cron successfully
 
 Now, I had originally planned on showing a nice, simple logging setup for Drupal that I could demo in a few minutes in this episode.
 
-But logging is not rainbows and sunshine. It wasn't easy with multiple servers _before_ Kubernetes was a thing, and it's not easy with multiple containers inside Kubernetes either.
+But logging is not rainbows and sunshine. It wasn't easy to do centralized logging with multiple servers _before_ Kubernetes was a thing, and it's not easy with multiple containers inside Kubernetes either.
 
 I have to punt on this topic because dealing with logs—even with one simple site—is not a quick and easy problem to solve.
 
 Especially if you want to handle logs in a scalable and secure manner!
 
-TODO:
+That said, here are a few potential solutions that I have either used in the past or think would be good for many use cases:
 
-  - https://kubernetes.io/docs/concepts/cluster-administration/logging/
-  - rsyslog-in-container example here: https://github.com/snp-technologies/Azure-Kubernetes-Service-Drupal8/blob/master/Dockerfile
-  - Datadog + https://www.drupal.org/project/datadog
-  - Logstash (ELK) + https://www.drupal.org/project/lagoon_logs
-  - Logstash (ELK) + https://www.drupal.org/project/logs_http
-  - Monolog: https://www.drupal.org/project/monolog
+### Using an External SaaS Log Aggregator
 
-ELK Charts: https://github.com/elastic/helm-charts
+If you have the budget, this is going to be the easiest option. Services like [Sumo Logic](https://www.sumologic.com), [DataDog](https://www.datadoghq.com/product/log-management/), and [Elastic](https://www.elastic.co/observability) provide cloud log aggregation, monitoring, and search dashboards.
 
-TODO:
+They are relatively easy to set up, they have pre-made ingest plugins available for most applications (e.g. [DataDog Logs HTTP for Drupal](https://www.drupal.org/project/datadog)) and for Kubernetes itself, and they can usually scale to thousands of applications without a hassle.
 
-  - Also what to do with Apache access and error logs (`/var/log/apache2/*.log`)?
-  - And integrate MySQL logs and slow query log?
-  - Mention sidecar containers (and _maybe_ service mesh).
+But they do cost a _lot_ (usually). That's the number one downside, but for many companies, the ease of integration and flexibility make it worthwhile.
+
+### Running your own ELK Stack
+
+If you want to save on the costs of a hosted service, running your own ELK stack is a perfectly reasonable option. Especially for smaller clusters (where you aren't dealing in many gigabytes of logs per day), it is not impossible to manage an ELK stack with a small team.
+
+However, maintenance is not free, and the Elastic stack (Elasticsearch, Logstash, and Kibana) require an investment in time to set up the stack, and maintain it.
+
+And it's not lightweight, either—in my experience I've had to allocate a lot of resources to get an Elasticsearch cluster to run well beyond one or two medium-traffic sites dumping all their log data, in addition to sometimes-noisy Kubernetes services.
+
+### Relying on a Service Mesh
+
+So-called 'Service Meshes' like Istio or Google's Anthos sometimes have their own logging integrations built-in.
+
+I don't typically recommend a Service Mesh layer on top of a Kubernetes cluster, because I kind of see it like spraying a firehose of 'all the things' on top of a cluster, and in reality, you don't necessarily need 'all the things' that a Service Mesh provides (they sure add to your cluster operation costs though!).
+
+It's often easier to inject specific sidecar containers—that is, containers that run alongside your application containers in the same Pod—to do specific purposes like extract log files or stream specific data to or from your application.
+
+### Using your cloud provider's solution
+
+Many cloud providers have integrated logging in their platform. You're already paying for it (most likely), so why not use it?
+
+Some of the solutions are not as robust as the alternatives, but the primary purpose for central logging is to be able to audit your applications and identify problems, and the basics are usually covered well.
+
+Speaking of cloud providers offering integrated logging, the Kubernetes 101 series sponsor, [amazee.io](https://www.amazee.io), maintains their own [Lagoon Logs](https://www.drupal.org/project/lagoon_logs) project that integrates Drupal logs with Lagoon's logging platform, through Logstash.
+
+This is one argument in favor of relying on hosting partners who are invested in the software you are using—they can offer deeper integration and insights into the apps you host with them!
