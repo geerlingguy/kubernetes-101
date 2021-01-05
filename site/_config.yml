@@ -23,7 +23,6 @@ youtube:
   channel_url: https://www.youtube.com/c/JeffGeerling
 
 github:
-  is_project_page: true
   repository_url: https://github.com/geerlingguy/kubernetes-101
   repository_name: Kubernetes 101
   owner_url: https://github.com/geerlingguy

@@ -5,7 +5,7 @@
   <body>
     <header>
       <div class="inner">
-        <a href="{{ '/' | absolute_url }}">
+        <a href="{{ '/' | absolute_url }}" class="title-link">
           {% if page.id == 'index' %}
           <h1 class="site-title">{{ site.title | default: site.github.repository_name }}</h1>
           {% else %}
