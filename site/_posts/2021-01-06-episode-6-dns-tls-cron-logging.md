@@ -23,7 +23,12 @@ layout: post
 
 Please check out the following examples in the [Episode 6 README](https://github.com/geerlingguy/kubernetes-101/tree/master/episode-06):
 
-  - TODO
+  - Set up an NGINX Ingress Controller
+  - Set up Ingress for Drupal
+  - External DNS Integration
+  - Set up TLS with cert-manager and Let's Encrypt
+  - Keeping Drupal Happy with a CronJob
+  - Monitoring Drupal's Logs
 
 ### Don't miss out!
 
