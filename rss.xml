@@ -5,9 +5,68 @@
     <description>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</description>
     <link>https://kube101.jeffgeerling.com/</link>
     <atom:link href="https://kube101.jeffgeerling.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Jan 2021 21:21:41 +0000</pubDate>
-    <lastBuildDate>Tue, 05 Jan 2021 21:21:41 +0000</lastBuildDate>
+    <pubDate>Wed, 06 Jan 2021 15:03:18 +0000</pubDate>
+    <lastBuildDate>Wed, 06 Jan 2021 15:03:18 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Episode 6: DNS, TLS, Cron, Logging</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=E1_uINjq2As&quot;&gt;Episode 6&lt;/a&gt; is live! The episode streamed live on January 6, 2021, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
+  &lt;a href=&quot;https://www.youtube.com/watch?v=E1_uINjq2As&quot;&gt;
+    &lt;img src=&quot;/assets/images/episode-06.jpg&quot; width=&quot;600&quot; height=&quot;338&quot; alt=&quot;Kubernetes 101 - Episode 6 - DNS, TLS, Cron, Logging&quot; class=&quot;parent-img-responsive&quot; /&gt;&lt;span&gt;&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;topics-covered-in-this-episode&quot;&gt;Topics Covered in this Episode&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DNS for Drupal&lt;/li&gt;
+  &lt;li&gt;Automating certificates for Drupal Ingress&lt;/li&gt;
+  &lt;li&gt;Working with Drupal’s Cron system&lt;/li&gt;
+  &lt;li&gt;Figuring out what to do with Drupal’s internal logs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;examples-from-this-episode&quot;&gt;Examples from this Episode&lt;/h3&gt;
+
+&lt;p&gt;Please check out the following examples in the &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/tree/master/episode-06&quot;&gt;Episode 6 README&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Set up an NGINX Ingress Controller&lt;/li&gt;
+  &lt;li&gt;Set up Ingress for Drupal&lt;/li&gt;
+  &lt;li&gt;External DNS Integration&lt;/li&gt;
+  &lt;li&gt;Set up TLS with cert-manager and Let’s Encrypt&lt;/li&gt;
+  &lt;li&gt;Keeping Drupal Happy with a CronJob&lt;/li&gt;
+  &lt;li&gt;Monitoring Drupal’s Logs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
+
+&lt;p&gt;All the episodes are being live streamed on Wednesdays on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss it!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Jan 2021 15:00:00 +0000</pubDate>
+        <link>https://kube101.jeffgeerling.com/2021/episode-6-dns-tls-cron-logging</link>
+        <guid isPermaLink="true">https://kube101.jeffgeerling.com/2021/episode-6-dns-tls-cron-logging</guid>
+        
+        
+        <category>episodes,</category>
+        
+        <category>apps,</category>
+        
+        <category>ingress,</category>
+        
+        <category>dns,</category>
+        
+        <category>tls,</category>
+        
+        <category>cron,</category>
+        
+        <category>logging,</category>
+        
+        <category>logs</category>
+        
+      </item>
     
       <item>
         <title>Episode 5: Scaling Drupal in K8s</title>
