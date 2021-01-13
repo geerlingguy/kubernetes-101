@@ -14,9 +14,9 @@ Click on an episode title to go to its web page with more information about the 
 | 4 | Dec 9, 2020 | [**Real-world apps**]({% post_url 2020-12-09-episode-4-real-world-apps %}) | [Video](https://www.youtube.com/watch?v=mrxA8g3w6ic), [Examples](https://github.com/geerlingguy/kubernetes-101/blob/master/episode-04) |
 | 5 | Dec 16, 2020 | [**Scaling Drupal in K8s**]({% post_url 2020-12-16-episode-5-scaling-drupal-in-k8s %}) | [Video](https://www.youtube.com/watch?v=euZdS5b2siA), [Examples](https://github.com/geerlingguy/kubernetes-101/blob/master/episode-05) |
 | 6 | Jan 6, 2021 | [**DNS, TLS, Cron, Logging**]({% post_url 2021-01-06-episode-6-dns-tls-cron-logging %}) | [Video](https://www.youtube.com/watch?v=E1_uINjq2As), [Examples](https://github.com/geerlingguy/kubernetes-101/blob/master/episode-06) |
-| 7 | Jan 13, 2021 | **Hello, Operator!** | TBD |
-| 8 | Jan 20, 2021 | **Kube, Meet Pi** | TBD |
-| 9 | Jan 27, 2021 | **TBD** | TBD |
-| 10 | Feb 3, 2021 | **TBD** | TBD |
+| 7 | Jan 20, 2021 | **Hello, Operator!** | [Video](https://www.youtube.com/watch?v=Q7G6DBaIJ1c) | [Examples](https://github.com/geerlingguy/kubernetes-101/blob/master/episode-07) |
+| 8 | Jan 27, 2021 | **Kube, Meet Pi** | TBD |
+| 9 | Feb 3, 2021 | **TBD** | TBD |
+| 10 | Feb 10, 2021 | **TBD** | TBD |
 
 View all the episodes in the [Kubernetes 101 Playlist](https://www.youtube.com/playlist?list=PL2_OBreMn7FoYmfx27iSwocotjiikS5BD) on YouTube.

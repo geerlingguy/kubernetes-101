@@ -1,6 +1,6 @@
 # Episode 7 - Hello, Operator!
 
-Date: January 13, 2021
+Date: January 20, 2021
 
 Video URL: https://www.youtube.com/watch?v=Q7G6DBaIJ1c
 
@@ -83,7 +83,7 @@ TODO: Reasons.
 
 TODO:
 
-  - prometheus operator
+  - Prometheus operator
   - Argo CD operator
   - OpenEBS operator
 
@@ -91,17 +91,20 @@ TODO:
 
 TODO:
 
-  - Kubebuilder vs Operator SDK?
+  - Kubebuilder vs Operator SDK? Differences, similarities.
+  - Go vs Helm vs Ansible
 
 ### Operator Framework / Operator SDK
 
-TODO.
+TODO:
+
+  - Pre-record Operator SDK tutorial
 
 ### Any language, including Rust!
 
 TODO:
 
-  - http://technosophos.com/2019/08/07/writing-a-kubernetes-controller-in-rust.html
+  - Controller in Rust: http://technosophos.com/2019/08/07/writing-a-kubernetes-controller-in-rust.html
 
 ## Finding other operators
 
@@ -109,3 +112,4 @@ TODO:
 
   - Operator Hub
   - My own operators... (Drupal, MariaDB, etc.)
+  - Pre-record Drupal operator demo

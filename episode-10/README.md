@@ -1,6 +1,6 @@
 # Episode 10 - TBD
 
-Date: February 3, 2021
+Date: February 10, 2021
 
 Video URL: TODO
 

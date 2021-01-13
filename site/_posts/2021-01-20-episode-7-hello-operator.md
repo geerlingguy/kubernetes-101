@@ -1,10 +1,10 @@
 ---
 title: "Episode 7: Hello, Operator!"
-date: 2021-01-13 09:00:00 -0600
+date: 2021-01-20 09:00:00 -0600
 categories: episodes, apps, operators, controllers
 layout: post
 ---
-[Episode 7](https://www.youtube.com/watch?v=Q7G6DBaIJ1c) is live! The episode streamed live on January 13, 2021, but the video is available free and on-demand—just click the image below:
+[Episode 7](https://www.youtube.com/watch?v=Q7G6DBaIJ1c) is live! The episode streamed live on January 20, 2021, but the video is available free and on-demand—just click the image below:
 
 <div style="text-align: center;" class="thumb-wrapper">
   <a href="https://www.youtube.com/watch?v=Q7G6DBaIJ1c">
