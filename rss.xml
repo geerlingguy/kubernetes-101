@@ -5,8 +5,8 @@
     <description>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</description>
     <link>https://kube101.jeffgeerling.com/</link>
     <atom:link href="https://kube101.jeffgeerling.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Jan 2021 03:31:48 +0000</pubDate>
-    <lastBuildDate>Tue, 12 Jan 2021 03:31:48 +0000</lastBuildDate>
+    <pubDate>Wed, 13 Jan 2021 01:11:13 +0000</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2021 01:11:13 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -321,6 +321,7 @@
       &lt;th style=&quot;text-align: left&quot;&gt;Air Date&lt;/th&gt;
       &lt;th style=&quot;text-align: left&quot;&gt;Title&lt;/th&gt;
       &lt;th style=&quot;text-align: left&quot;&gt;Links&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -329,60 +330,70 @@
       &lt;td style=&quot;text-align: left&quot;&gt;Nov 18, 2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2020/episode-1-hello-kubernetes&quot;&gt;&lt;strong&gt;Hello, Kubernetes!&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=IcslsH7OoYo&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/tree/master/episode-01&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;2&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Nov 25, 2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2020/episode-2-containers&quot;&gt;&lt;strong&gt;Containers&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AHDrejEv0SM&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-02&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;3&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Dec 2, 2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2020/episode-3-deploying-apps&quot;&gt;&lt;strong&gt;Deploying Apps&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nn9J9sWLj_w&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-03&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;4&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Dec 9, 2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2020/episode-4-real-world-apps&quot;&gt;&lt;strong&gt;Real-world apps&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=mrxA8g3w6ic&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-04&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;5&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Dec 16, 2020&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2020/episode-5-scaling-drupal-in-k8s&quot;&gt;&lt;strong&gt;Scaling Drupal in K8s&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=euZdS5b2siA&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-05&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Jan 6, 2021&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2021/episode-6-dns-tls-cron-logging&quot;&gt;&lt;strong&gt;DNS, TLS, Cron, Logging&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=E1_uINjq2As&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-06&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;7&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Jan 13, 2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Jan 20, 2021&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Hello, Operator!&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;TBD&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Q7G6DBaIJ1c&quot;&gt;Video&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-07&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;8&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Jan 20, 2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Jan 27, 2021&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Kube, Meet Pi&lt;/strong&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;TBD&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;9&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Jan 27, 2021&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;TBD&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;TBD&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;10&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Feb 3, 2021&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;TBD&lt;/strong&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;TBD&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Feb 10, 2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;TBD&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;TBD&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
