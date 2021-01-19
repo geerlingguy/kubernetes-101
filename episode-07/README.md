@@ -73,7 +73,7 @@ spec:
 
 A lot simpler to manage! Now imagine you're building a platform that's running 300 different Drupal sites. Would you rather build the automation into one Operator that can manage 300 instances, or have to build automation that runs outside of Kubernetes to do the same thing?
 
-### Why not use an Operator?
+### Why _not_ use an Operator?
 
 There are some valid reasons for sticking with primatives, especially if you don't have more complex needs, like running many instances of an application in one or more clusters.
 
@@ -105,16 +105,114 @@ So what if there isn't a good operator for the software you're running in your c
 
 Early on, building an Operator required fairly deep knowledge of the Go programming language and Kubernetes APIs, but thanks to a lot of work by the community, there are now a variety of ways you can build operators—even if you don't know Go at all!
 
-TODO:
+The two main ways I've seen used for building operators are [Kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) and the [Operator SDK](https://sdk.operatorframework.io).
 
-  - Kubebuilder vs Operator SDK? Differences, similarities.
-  - Go vs Helm vs Ansible
+The main difference between them used to be that Kubebuilder only helped build Go-based operators, requiring knowledge of Go, wherease Operator SDK worked with Go, Ansible, or Helm-based operators.
 
-### Operator Framework / Operator SDK
+But in the past year, the Operator SDK upstreamed some of it's customizations into Kubebuilder, so Go-based operators built by Kubebuilder and Operator SDK are practically identical.
 
-TODO:
+Operator SDK is still the only easy way to build non-Go operators with Ansible or Helm, though.
 
-  - Pre-record Operator SDK tutorial
+There are some other projects that help with building operators, or operator-like tooling, like [KUDO](https://kudo.dev), but I won't cover them in this episode.
+
+There are some tradeoffs if not using Go to build your operator with Operator SDK, though. The Operator SDK shows a graph of ['operator capability levels'](https://sdk.operatorframework.io/docs/overview/#operator-capability-level), and this shows different types of operators are better at different levels of automation.
+
+Helm-based operators are great for basic app install and upgrades.
+
+Ansible-based operators can also perform more app management, including metrics integrations, config management, and external integrations.
+
+Go-based operators can do everything, with the highest amount of granularity and available performance tuning.
+
+But Go-based operators are the most difficult to set up and maintain if you don't already know the Go programming language. And Ansible might be more complex than what you require too, if you just want to be able to install and upgrade many instances of your application via Helm.
+
+### Building an Operator with Operator SDK
+
+Since I'm most familiar with Ansible, though, I'm going to demonstrate building a custom operator in Ansible, using the guide from the Operator SDK.
+
+#### Installing Operator SDK
+
+First, you need to make sure Operator SDK is installed on your system. As with everything else on my Mac, I use homebrew to install it:
+
+    brew install operator-sdk
+
+You can also download the release binary from GitHub if you want.
+
+#### Building an Ansible Operator
+
+The first step to building an operator is to create a project directory, and initialize an Operator SDK project inside:
+
+```
+mkdir memcached-operator
+cd memcached-operator
+operator-sdk init --plugins=ansible --domain=example.com
+```
+
+Next you need to create an API for Kubernetes with a role for the API to run in the cluster:
+
+```
+operator-sdk create api --group cache --version v1 --kind Memcached --generate-role
+```
+
+The operator runs inside a container image, so before you can start using the operator, you have to build the docker image and push it somewhere your Kubernetes cluster can pull it from:
+
+```
+make docker-build docker-push IMG=ttl.sh/example-memcached:1h
+```
+
+> [ttl.sh](https://ttl.sh) allows you to push ephemeral container images to a public repository for testing purposes. Note that the image will be automatically removed after an hour. For real-world usage, you should push the operator image to a persistent registry!
+
+> Currently there's [a bug](https://github.com/operator-framework/operator-sdk/issues/4403) in the Operator SDK that prevents the generated Makefile from working on macOS Big Sur. The fix is to comment out the `SHELL` line in the Makefile before building.
+
+#### Running an Ansible Operator
+
+First, make sure you have a Kubernetes cluster running somewhere to which you have access as a `cluster-admin`. The easiest thing for testing is to use Kind or Minikube. In my case, I'll start up a Minikube cluster:
+
+```
+minikube start
+```
+
+Then, install the Operator's CRD into the cluster:
+
+```
+make install
+```
+
+And finally, deploy the Operator into the cluster, so it can start watching for custom resources:
+
+```
+make deploy IMG=ttl.sh/example-memcached:1h
+```
+
+After it's deployed, you can check on the new operator pod running in the cluster, which should be in the `memcached-operator-system` namespace:
+
+```
+kubectl get pods -n memcached-operator-system
+```
+
+Once it's `Running`, you can start deploying instances of your application and the Operator will start managing them!
+
+#### Create a CR, and let the Operator Operate!
+
+There's an example Memcached Custom Resource you can deploy, so deploy it into the cluster:
+
+```
+kubectl apply -f config/samples/cache_v1_memcached.yaml
+```
+
+And watch the Operator perform a 'reconciliation', making sure the CR is in the proper state:
+
+```
+kubectl logs deployment.apps/memcached-operator-controller-manager -n memcached-operator-system -c manager
+```
+
+After you're done, you can clean everything up by deleting the CR, then un-deploying the operator and CRDs:
+
+```
+kubectl delete -f config/samples/cache_v1_memcached.yaml
+make undeploy
+```
+
+That example was pretty contrived, but the idea is you can add some Ansible tasks to create whatever resources are necessary, manage any connections between them, run any necessary installation or database update tasks, then keep them running correctly whenever a change occurs in the cluster.
 
 ### Any language, including Rust!
 
