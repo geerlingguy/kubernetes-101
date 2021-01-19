@@ -77,17 +77,33 @@ A lot simpler to manage! Now imagine you're building a platform that's running 3
 
 There are some valid reasons for sticking with primatives, especially if you don't have more complex needs, like running many instances of an application in one or more clusters.
 
-TODO: Reasons.
+In many cases, you might only need to run one instance of an application or microservice, and it's not something that would benefit from an extra layer of automation.
+
+Especially early on, when something is in development, it is easier to iterate using Kubernetes resources directly, rather than to build and maintain an Operator, which then manages those resources for you.
+
+And in some cases, Operators are just one extra layer of automation that you might not want to maintain.
 
 ## Popular Kubernetes Operators
 
-TODO:
+Even if you don't build your own operator, though, there's a good chance you'll end up using one or more in your Kubernetes clusters.
 
-  - Prometheus operator
-  - Argo CD operator
-  - OpenEBS operator
+Almost every cluster I've ever built needed Prometheus for monitoring, and the standard way to install Prometheus and Alertmanager in a Kubernetes cluster is to use the [Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator).
+
+There are many other operators available, like the [Argo CD Operator](https://argocd-operator.readthedocs.io/en/latest/) for deploying one of the most popular Continuous Deployment tools in Kubernetes, or the [OpenEBS Operator](https://docs.openebs.io/docs/next/installation.html#installation-through-kubectl).
+
+Operators aren't really centrally visible, like Docker images on [Docker Hub](https://hub.docker.com), or Helm charts on [Artifact Hub](https://artifacthub.io).
+
+But there is one central location that's aggregating a large number of operators, and that's [OperatorHub.io](https://operatorhub.io).
+
+Currently, OperatorHub lists almost 200 operators, but I know there are hundreds more that aren't listed there. Usually I find them through a direct Google or GitHub search.
+
+Some are better maintained than others, though. The only way to get a good grasp on whether an existing operator is right for you is to install it in a test cluster.
 
 ## Build your own Operator
+
+So what if there isn't a good operator for the software you're running in your cluster? Or what if your application needs a custom operator?
+
+Early on, building an Operator required fairly deep knowledge of the Go programming language and Kubernetes APIs, but thanks to a lot of work by the community, there are now a variety of ways you can build operators—even if you don't know Go at all!
 
 TODO:
 
@@ -106,10 +122,6 @@ TODO:
 
   - Controller in Rust: http://technosophos.com/2019/08/07/writing-a-kubernetes-controller-in-rust.html
 
-## Finding other operators
+## Conclusion
 
-TODO:
-
-  - Operator Hub
-  - My own operators... (Drupal, MariaDB, etc.)
-  - Pre-record Drupal operator demo
+TODO.
