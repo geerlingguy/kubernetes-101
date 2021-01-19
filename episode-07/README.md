@@ -133,7 +133,9 @@ Since I'm most familiar with Ansible, though, I'm going to demonstrate building 
 
 First, you need to make sure Operator SDK is installed on your system. As with everything else on my Mac, I use homebrew to install it:
 
-    brew install operator-sdk
+```
+brew install operator-sdk
+```
 
 You can also download the release binary from GitHub if you want.
 
@@ -152,6 +154,52 @@ Next you need to create an API for Kubernetes with a role for the API to run in 
 ```
 operator-sdk create api --group cache --version v1 --kind Memcached --generate-role
 ```
+
+Next you need to create an Ansible task to actually manage a Memcached instance whenever a new Memcached Custom Resource (CR) is added.
+
+So open `roles/memcached/tasks/main.yml`—this is the task file that is run when the Ansible Operator identifies a new or changed resource. Add the following inside:
+
+```yaml
+---
+- name: Manage a memcached deployment with {{ size }} replicas.
+  community.kubernetes.k8s:
+    definition:
+      kind: Deployment
+      apiVersion: apps/v1
+      metadata:
+        name: '{{ ansible_operator_meta.name }}-memcached'
+        namespace: '{{ ansible_operator_meta.namespace }}'
+      spec:
+        replicas: "{{ size }}"
+        selector:
+          matchLabels:
+            app: memcached
+        template:
+          metadata:
+            labels:
+              app: memcached
+          spec:
+            containers:
+            - name: memcached
+              command:
+              - memcached
+              - -m=64
+              - -o
+              - modern
+              - -v
+              image: "docker.io/memcached:1.4.36-alpine"
+              ports:
+                - containerPort: 11211
+```
+
+Next, modify the `spec` inside `config/samples/cache_v1_memcached.yaml` so it provides a custom `size` value for the Ansible operator—and delete the existing `foo: bar` entry:
+
+```yaml
+spec:
+  size: 3
+```
+
+To be complete, you should also set an Ansible role default for the size variable in case the user didn't set one, but I'm skipping that step here.
 
 The operator runs inside a container image, so before you can start using the operator, you have to build the docker image and push it somewhere your Kubernetes cluster can pull it from:
 
@@ -193,7 +241,7 @@ Once it's `Running`, you can start deploying instances of your application and t
 
 #### Create a CR, and let the Operator Operate!
 
-There's an example Memcached Custom Resource you can deploy, so deploy it into the cluster:
+Now deploy the Memcached Custom Resource sample modified earlier:
 
 ```
 kubectl apply -f config/samples/cache_v1_memcached.yaml
@@ -212,14 +260,16 @@ kubectl delete -f config/samples/cache_v1_memcached.yaml
 make undeploy
 ```
 
-That example was pretty contrived, but the idea is you can add some Ansible tasks to create whatever resources are necessary, manage any connections between them, run any necessary installation or database update tasks, then keep them running correctly whenever a change occurs in the cluster.
+That example was fairly simple, but the idea is you can add Ansible tasks to create whatever resources are necessary, manage connections between them, run necessary installation or database update tasks, and keep things running correctly whenever a change occurs in the cluster.
 
-### Any language, including Rust!
+### Any language, including Python or Rust!
 
-TODO:
+Since Operators are basically Kubernetes Controllers that interact with the Kubernetes API directly, you can write them in any language.
 
-  - Controller in Rust: http://technosophos.com/2019/08/07/writing-a-kubernetes-controller-in-rust.html
+Besides Go, Ansible, and Helm, there are also guides and frameworks to assist with building a [controller in Rust](http://technosophos.com/2019/08/07/writing-a-kubernetes-controller-in-rust.html), or [an operator in Python using Kopf](https://github.com/nolar/kopf).
 
 ## Conclusion
 
-TODO.
+There are hundreds of Kubernetes Operators that you can look at for inspiration. I even maintain a [Drupal Operator](https://github.com/geerlingguy/drupal-operator) that could be used to manage multiple Drupal instances in a cluster!
+
+Operators are not the solution for every application, but they do help in many ways, especially if you have a lot of application lifecycle management to automate in a cluster, or if you run many instances of an application.
