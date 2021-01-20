@@ -2,7 +2,7 @@
 
 Date: January 27, 2021
 
-Video URL: TODO
+Video URL: https://www.youtube.com/watch?v=_r1wN6cD32w
 
 Outline:
 
