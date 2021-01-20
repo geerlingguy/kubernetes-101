@@ -23,7 +23,9 @@ layout: post
 
 Please check out the following examples in the [Episode 7 README](https://github.com/geerlingguy/kubernetes-101/tree/master/episode-07):
 
-  - TODO
+  - Build your own Operator with Operator SDK
+  - Building an Ansible Operator for Memcached
+  - Running the Ansible Operator
 
 ### Don't miss out!
 
