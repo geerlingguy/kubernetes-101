@@ -5,8 +5,8 @@
     <description>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</description>
     <link>https://kube101.jeffgeerling.com/</link>
     <atom:link href="https://kube101.jeffgeerling.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jan 2021 15:26:50 +0000</pubDate>
-    <lastBuildDate>Wed, 20 Jan 2021 15:26:50 +0000</lastBuildDate>
+    <pubDate>Wed, 20 Jan 2021 15:28:32 +0000</pubDate>
+    <lastBuildDate>Wed, 20 Jan 2021 15:28:32 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -411,7 +411,7 @@
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;7&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Jan 20, 2021&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Hello, Operator!&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2021/episode-7-hello-operator&quot;&gt;&lt;strong&gt;Hello, Operator!&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Q7G6DBaIJ1c&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-07&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
