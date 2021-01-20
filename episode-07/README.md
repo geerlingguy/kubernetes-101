@@ -107,7 +107,7 @@ Early on, building an Operator required fairly deep knowledge of the Go programm
 
 The two main ways I've seen used for building operators are [Kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) and the [Operator SDK](https://sdk.operatorframework.io).
 
-The main difference between them used to be that Kubebuilder only helped build Go-based operators, requiring knowledge of Go, wherease Operator SDK worked with Go, Ansible, or Helm-based operators.
+The main difference between them used to be that Kubebuilder only helped build Go-based operators, requiring knowledge of Go, whereas Operator SDK worked with Go, Ansible, or Helm-based operators.
 
 But in the past year, the Operator SDK upstreamed some of it's customizations into Kubebuilder, so Go-based operators built by Kubebuilder and Operator SDK are practically identical.
 
@@ -115,7 +115,7 @@ Operator SDK is still the only easy way to build non-Go operators with Ansible o
 
 There are some other projects that help with building operators, or operator-like tooling, like [KUDO](https://kudo.dev), but I won't cover them in this episode.
 
-There are some tradeoffs if not using Go to build your operator with Operator SDK, though. The Operator SDK shows a graph of ['operator capability levels'](https://sdk.operatorframework.io/docs/overview/#operator-capability-level), and this shows different types of operators are better at different levels of automation.
+There are some tradeoffs if you're not using Go to build your operator with Operator SDK, though. The Operator SDK shows a graph of ['operator capability levels'](https://sdk.operatorframework.io/docs/overview/#operator-capability-level), and this shows different types of operators are better at different levels of automation.
 
 Helm-based operators are great for basic app install and upgrades.
 
