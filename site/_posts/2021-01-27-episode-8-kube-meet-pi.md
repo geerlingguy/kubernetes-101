@@ -14,13 +14,18 @@ layout: post
 
 ### Topics Covered in this Episode
 
-  - TODO
+  - Kubernetes on Bare Metal
+  - Learning Kubernetes with the Raspberry Pi
+  - Installing a Kubernetes Distribution
+  - Setting up the Raspberry Pi Dramble cluster
 
 ### Examples from this Episode
 
 Please check out the following examples in the [Episode 8 README](https://github.com/geerlingguy/kubernetes-101/tree/master/episode-08):
 
-  - TODO
+  - Choosing the right Kubernetes Distribution
+  - Setting up the Raspberry Pi Dramble cluster
+  - Going further on local bare metal clusters
 
 ### Don't miss out!
 
