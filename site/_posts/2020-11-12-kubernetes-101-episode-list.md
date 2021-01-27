@@ -15,7 +15,7 @@ Click on an episode title to go to its web page with more information about the 
 | 5 | Dec 16, 2020 | [**Scaling Drupal in K8s**]({% post_url 2020-12-16-episode-5-scaling-drupal-in-k8s %}) | [Video](https://www.youtube.com/watch?v=euZdS5b2siA), [Examples](https://github.com/geerlingguy/kubernetes-101/blob/master/episode-05) |
 | 6 | Jan 6, 2021 | [**DNS, TLS, Cron, Logging**]({% post_url 2021-01-06-episode-6-dns-tls-cron-logging %}) | [Video](https://www.youtube.com/watch?v=E1_uINjq2As), [Examples](https://github.com/geerlingguy/kubernetes-101/blob/master/episode-06) |
 | 7 | Jan 20, 2021 | [**Hello, Operator!**]({% post_url 2021-01-20-episode-7-hello-operator %}) | [Video](https://www.youtube.com/watch?v=Q7G6DBaIJ1c), [Examples](https://github.com/geerlingguy/kubernetes-101/blob/master/episode-07) |
-| 8 | Jan 27, 2021 | **Kube, Meet Pi** | TBD |
+| 8 | Jan 27, 2021 | [**Kube, Meet Pi**]({% post_url 2021-01-27-episode-8-kube-meet-pi %}) | [Video](https://www.youtube.com/watch?v=_r1wN6cD32w), [Examples](https://github.com/geerlingguy/kubernetes-101/blob/master/episode-08) |
 | 9 | Feb 3, 2021 | **TBD** | TBD |
 | 10 | Feb 10, 2021 | **TBD** | TBD |
 
