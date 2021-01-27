@@ -73,7 +73,7 @@ But there's an old saying that reminds me of the importance of starting small:
 
 > "Wax on. Wax off."
 
-Just like [Mr. Miyagi in The Karate Kid](https://www.imdb.com/title/tt0087538/characters/nm0001552), I like to teach the less on that you build a foundation for advanced usage of complex tools like Kubernetes by starting small, focusing on a first step, perfecting your knowledge of that step, then moving on.
+Just like [Mr. Miyagi in The Karate Kid](https://www.imdb.com/title/tt0087538/characters/nm0001552), I like to teach the lesson that you build a foundation for advanced usage of complex tools like Kubernetes by starting small, focusing on a first step, perfecting your knowledge of that step, then moving on.
 
 So start learning little things, with great constraints. In Kubernetes, you quickly learn lessons that will pay back in spades later:
 
@@ -166,7 +166,7 @@ There's a good article on setting it up on Raspberry Pi on Opensource.com: [Inst
 
 Second, the current configuration doesn't include any monitoring system, even though I set up pretty thorough monitoring—including Pi CPU temperature monitoring—using Prometheus and Grafana. To see how I did that, check out my [Raspberry Pi Cluster Episode 4](https://www.youtube.com/watch?v=IafVCHkJbtI), starting around the 5 minute mark.
 
-Finally, I can't wait for the [Turing Pi 2](https://turingpi.com/v2/) to be released. In my [review of the original Turing Pi](/blog/2020/raspberry-pi-cluster-episode-6-turing-pi-review), I noted that it is much easier to set up and manage, hardware-wise, than a cluster of Pi 4 model B computers—but that the Compute Module 3+ is a far cry from the Pi 4 generation.
+Finally, I can't wait for the [Turing Pi 2](https://turingpi.com/v2/) to be released. In my [review of the original Turing Pi](https://www.jeffgeerling.com/blog/2020/raspberry-pi-cluster-episode-6-turing-pi-review), I noted that it is much easier to set up and manage, hardware-wise, than a cluster of Pi 4 model B computers—but that the Compute Module 3+ is a far cry from the Pi 4 generation.
 
 The Turing Pi 2 will support the usually-twice-as-fast Compute Module 4, which means you could have a single board with four nodes and one Ethernet connection for the entire setup, saving even more cabling and power hassle.
 
