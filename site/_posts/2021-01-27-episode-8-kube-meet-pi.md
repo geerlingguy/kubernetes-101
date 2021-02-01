@@ -1,6 +1,6 @@
 ---
 title: "Episode 8: Kube, meet Pi"
-date: 2021-01-20 09:00:00 -0600
+date: 2021-01-27 09:00:00 -0600
 categories: episodes, apps, raspberry pi, bare metal, cluster
 layout: post
 ---
