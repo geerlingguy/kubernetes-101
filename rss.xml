@@ -5,8 +5,8 @@
     <description>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</description>
     <link>https://kube101.jeffgeerling.com/</link>
     <atom:link href="https://kube101.jeffgeerling.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Feb 2021 16:22:34 +0000</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2021 16:22:34 +0000</lastBuildDate>
+    <pubDate>Tue, 02 Feb 2021 19:43:30 +0000</pubDate>
+    <lastBuildDate>Tue, 02 Feb 2021 19:43:30 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -504,7 +504,7 @@
         <title>Kubernetes 101 Livestream series starts Nov 18!</title>
         <description>&lt;p&gt;Kubernetes 101 is a new educational video series by Jeff Geerling, and the &lt;a href=&quot;https://www.youtube.com/watch?v=IcslsH7OoYo&quot;&gt;first live episode&lt;/a&gt; will premiere on YouTube on &lt;strong&gt;November 18, 2020 at 11 a.m. US Eastern&lt;/strong&gt;!&lt;/p&gt;
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=IcslsH7OoYo&quot;&gt;&lt;img src=&quot;/assets/images/livestream-thumbnail-generic.jpg&quot; width=&quot;600&quot; height=&quot;338&quot; alt=&quot;Kubernetes 101 Livestream Series Sponsored by Amazee.io&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=IcslsH7OoYo&quot;&gt;&lt;img src=&quot;/assets/images/livestream-thumbnail-generic.jpg&quot; width=&quot;600&quot; height=&quot;338&quot; alt=&quot;Kubernetes 101 Livestream Series Sponsored by amazee.io&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Jeff Geerling is the author of bestselling book &lt;a href=&quot;https://www.ansiblefordevops.com&quot;&gt;Ansible for DevOps&lt;/a&gt;, and streamed a very popular &lt;a href=&quot;https://www.jeffgeerling.com/blog/2020/ansible-101-jeff-geerling-youtube-streaming-series&quot;&gt;Ansible 101&lt;/a&gt; series earlier this year on his YouTube channel. Jeff is also writing &lt;a href=&quot;https://www.ansibleforkubernetes.com&quot;&gt;Ansible for Kubernetes&lt;/a&gt;, and has maintained a Raspberry Pi Kubernetes cluster for many years, the &lt;a href=&quot;http://www.pidramble.com&quot;&gt;Raspberry Pi Dramble&lt;/a&gt;.&lt;/p&gt;
 
