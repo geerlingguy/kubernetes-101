@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kube101.jeffgeerling.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kube101.jeffgeerling.com/" rel="alternate" type="text/html" /><updated>2021-02-03T02:25:13+00:00</updated><id>https://kube101.jeffgeerling.com/feed.xml</id><title type="html">Kubernetes 101</title><subtitle>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</subtitle><entry><title type="html">Episode 8: Kube, meet Pi</title><link href="https://kube101.jeffgeerling.com/2021/episode-8-kube-meet-pi" rel="alternate" type="text/html" title="Episode 8: Kube, meet Pi" /><published>2021-01-27T15:00:00+00:00</published><updated>2021-01-27T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2021/episode-8-kube-meet-pi</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2021/episode-8-kube-meet-pi">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_r1wN6cD32w&quot;&gt;Episode 8&lt;/a&gt; is live! The episode streamed live on January 27, 2021, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kube101.jeffgeerling.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kube101.jeffgeerling.com/" rel="alternate" type="text/html" /><updated>2021-02-03T15:03:47+00:00</updated><id>https://kube101.jeffgeerling.com/feed.xml</id><title type="html">Kubernetes 101</title><subtitle>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</subtitle><entry><title type="html">Episode 9: GitOps and Lagoon - an Interview with Michael Schmid</title><link href="https://kube101.jeffgeerling.com/2021/episode-9-interview-michael-schmid" rel="alternate" type="text/html" title="Episode 9: GitOps and Lagoon - an Interview with Michael Schmid" /><published>2021-02-03T15:00:00+00:00</published><updated>2021-02-03T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2021/episode-9-interview-michael-schmid</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2021/episode-9-interview-michael-schmid">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=D5QOwhLE3mY&quot;&gt;Episode 9&lt;/a&gt; is live! The episode streamed live on February 3, 2021, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
+  &lt;a href=&quot;https://www.youtube.com/watch?v=D5QOwhLE3mY&quot;&gt;
+    &lt;img src=&quot;/assets/images/episode-09.jpg&quot; width=&quot;600&quot; height=&quot;338&quot; alt=&quot;Kubernetes 101 - Episode 9 - GitOps and Lagoon - an Interview with Michael Schmid&quot; class=&quot;parent-img-responsive&quot; /&gt;&lt;span&gt;&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;topics-covered-in-this-episode&quot;&gt;Topics Covered in this Episode&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Who is Michael Schmid?&lt;/li&gt;
+  &lt;li&gt;Why did amazee.io adopt Kubernetes for it’s hosting needs?&lt;/li&gt;
+  &lt;li&gt;How does Lagoon and managed hosting make things easier versus DIY Kubernetes hosting?&lt;/li&gt;
+  &lt;li&gt;What is Lagoon using under the hood to manage deployments?&lt;/li&gt;
+  &lt;li&gt;How does amazee.io contribute back to open source software?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
+
+&lt;p&gt;All the episodes are being live streamed on Wednesdays on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss it!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="managed," /><category term="hosting," /><category term="lagoon," /><category term="amazee" /><summary type="html">Episode 9 is live! The episode streamed live on February 3, 2021, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 8: Kube, meet Pi</title><link href="https://kube101.jeffgeerling.com/2021/episode-8-kube-meet-pi" rel="alternate" type="text/html" title="Episode 8: Kube, meet Pi" /><published>2021-01-27T15:00:00+00:00</published><updated>2021-01-27T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2021/episode-8-kube-meet-pi</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2021/episode-8-kube-meet-pi">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_r1wN6cD32w&quot;&gt;Episode 8&lt;/a&gt; is live! The episode streamed live on January 27, 2021, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
   &lt;a href=&quot;https://www.youtube.com/watch?v=_r1wN6cD32w&quot;&gt;
@@ -304,7 +324,7 @@
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;9&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Feb 3, 2021&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;GitOps and Lagoon - an Interview with Michael Schmid&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2021/episode-9-interview-michael-schmid&quot;&gt;&lt;strong&gt;GitOps and Lagoon - an Interview with Michael Schmid&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=D5QOwhLE3mY&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-09&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -316,40 +336,4 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;View all the episodes in the &lt;a href=&quot;https://www.youtube.com/playlist?list=PL2_OBreMn7FoYmfx27iSwocotjiikS5BD&quot;&gt;Kubernetes 101 Playlist&lt;/a&gt; on YouTube.&lt;/p&gt;</content><author><name></name></author><category term="announcements" /><summary type="html">Click on an episode title to go to its web page with more information about the episode. Click on the links to watch the episode on YouTube or view and run examples from the episode.</summary></entry><entry><title type="html">Kubernetes 101 Livestream series starts Nov 18!</title><link href="https://kube101.jeffgeerling.com/2020/kubernetes-101-starts-nov-18" rel="alternate" type="text/html" title="Kubernetes 101 Livestream series starts Nov 18!" /><published>2020-11-11T16:10:00+00:00</published><updated>2020-11-11T16:10:00+00:00</updated><id>https://kube101.jeffgeerling.com/2020/kubernetes-101-starts-nov-18</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2020/kubernetes-101-starts-nov-18">&lt;p&gt;Kubernetes 101 is a new educational video series by Jeff Geerling, and the &lt;a href=&quot;https://www.youtube.com/watch?v=IcslsH7OoYo&quot;&gt;first live episode&lt;/a&gt; will premiere on YouTube on &lt;strong&gt;November 18, 2020 at 11 a.m. US Eastern&lt;/strong&gt;!&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=IcslsH7OoYo&quot;&gt;&lt;img src=&quot;/assets/images/livestream-thumbnail-generic.jpg&quot; width=&quot;600&quot; height=&quot;338&quot; alt=&quot;Kubernetes 101 Livestream Series Sponsored by amazee.io&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Jeff Geerling is the author of bestselling book &lt;a href=&quot;https://www.ansiblefordevops.com&quot;&gt;Ansible for DevOps&lt;/a&gt;, and streamed a very popular &lt;a href=&quot;https://www.jeffgeerling.com/blog/2020/ansible-101-jeff-geerling-youtube-streaming-series&quot;&gt;Ansible 101&lt;/a&gt; series earlier this year on his YouTube channel. Jeff is also writing &lt;a href=&quot;https://www.ansibleforkubernetes.com&quot;&gt;Ansible for Kubernetes&lt;/a&gt;, and has maintained a Raspberry Pi Kubernetes cluster for many years, the &lt;a href=&quot;http://www.pidramble.com&quot;&gt;Raspberry Pi Dramble&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This series will cover all the basics of Kubernetes and cloud-native infrastructure, and will demonstrate how to manage containers, clusters, and applications running inside those clusters.&lt;/p&gt;
-
-&lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
-
-&lt;p&gt;Make sure to subscribe to Jeff Geerling’s YouTube channel and enable notifications so you don’t miss out:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Visit &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Click the ‘Subscribe’ button.&lt;/li&gt;
-  &lt;li&gt;Click the bell to set up notifications when new streams are live.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The first episode, &lt;a href=&quot;https://www.youtube.com/watch?v=IcslsH7OoYo&quot;&gt;“Hello, Kubernetes!”&lt;/a&gt; will air on &lt;strong&gt;November 18, 2020&lt;/strong&gt; starting at &lt;strong&gt;11 a.m. US Eastern&lt;/strong&gt; (&lt;a href=&quot;http://www.worldtimebuddy.com/event?lid=5%2C2643743%2C30%2C2147714&amp;amp;h=5&amp;amp;sts=26761260&amp;amp;sln=11-12&amp;amp;a=show&amp;amp;euid=c508febe-1657-4014-e9a5-269593354ab1&quot;&gt;see it in your timezone&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;All episodes will be recorded and available on-demand immediately following the live stream.&lt;/p&gt;
-
-&lt;h3 id=&quot;who-is-it-for&quot;&gt;Who is it for?&lt;/h3&gt;
-
-&lt;p&gt;This series is meant for complete beginners to Kubernetes and cloud-native deployment. If you’ve dabbled in Docker, or even if you’ve never used it before, you will learn a lot about containers, Kubernetes, and cloud-native computing.&lt;/p&gt;
-
-&lt;p&gt;Even if you have already used a managed Kubernetes service before, learn more about how everything works under the hood through this free series on YouTube!&lt;/p&gt;
-
-&lt;h3 id=&quot;episodes&quot;&gt;Episodes&lt;/h3&gt;
-
-&lt;p&gt;The full list of episodes will be posted soon!&lt;/p&gt;
-
-&lt;h3 id=&quot;special-thanks&quot;&gt;Special thanks&lt;/h3&gt;
-
-&lt;p&gt;Special thanks to &lt;a href=&quot;https://www.amazee.io&quot;&gt;amazee.io​&lt;/a&gt; for sponsoring this series. amazee.io is a global Managed Service Provider delivering secure, enterprise-grade container hosting, leveraging the open source application delivery platform &lt;a href=&quot;https://lagoon.sh&quot;&gt;Lagoon&lt;/a&gt; – purposely built for Kubernetes-based modern cloud environments.&lt;/p&gt;
-
-&lt;p&gt;They empower large-scale organizations with better deployment processes, the freedom of local development, a flexible container-based hosting platform that can be located anywhere in the world, and 24/7 white-glove support and services.&lt;/p&gt;</content><author><name></name></author><category term="announcements" /><summary type="html">Kubernetes 101 is a new educational video series by Jeff Geerling, and the first live episode will premiere on YouTube on November 18, 2020 at 11 a.m. US Eastern!</summary></entry></feed>
+&lt;p&gt;View all the episodes in the &lt;a href=&quot;https://www.youtube.com/playlist?list=PL2_OBreMn7FoYmfx27iSwocotjiikS5BD&quot;&gt;Kubernetes 101 Playlist&lt;/a&gt; on YouTube.&lt;/p&gt;</content><author><name></name></author><category term="announcements" /><summary type="html">Click on an episode title to go to its web page with more information about the episode. Click on the links to watch the episode on YouTube or view and run examples from the episode.</summary></entry></feed>
