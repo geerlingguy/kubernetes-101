@@ -1,5 +1,5 @@
 ---
-title: "Episode 9: Interview with Michael Schmid"
+title: "Episode 9: GitOps and Lagoon - an Interview with Michael Schmid"
 date: 2021-02-03 09:00:00 -0600
 categories: episodes, managed, hosting, lagoon, amazee
 layout: post
@@ -8,7 +8,7 @@ layout: post
 
 <div style="text-align: center;" class="thumb-wrapper">
   <a href="https://www.youtube.com/watch?v=D5QOwhLE3mY">
-    <img src="/assets/images/episode-09.jpg" width="600" height="338" alt="Kubernetes 101 - Episode 9 - Interview with Michael Schmid" class="parent-img-responsive"><span></span>
+    <img src="/assets/images/episode-09.jpg" width="600" height="338" alt="Kubernetes 101 - Episode 9 - GitOps and Lagoon - an Interview with Michael Schmid" class="parent-img-responsive"><span></span>
   </a>
 </div>
 
