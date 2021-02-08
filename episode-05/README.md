@@ -72,7 +72,7 @@ To keep things simple, I'm just going to use a pre-existing Helm Chart to deploy
 
 ```
 helm repo add ckotzbauer https://ckotzbauer.github.io/helm-charts
-helm install --set nfs.server=192.168.166.68 --set nfs.path=/home/nfs ckotzbauer/nfs-client-provisioner --version 1.0.2 --generate-name
+helm install --set nfs.server=192.168.217.5 --set nfs.path=/home/nfs ckotzbauer/nfs-client-provisioner --version 1.0.2 --generate-name
 ```
 
 For the `nfs.server`, use the Private IPv4 address for your NFS server. For the `nfs.path`, set it to the path of an NFS share on that server.
