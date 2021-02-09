@@ -14,13 +14,17 @@ layout: post
 
 ### Topics Covered in this Episode
 
-  - TODO
+  - Cluster visibility with Lens
+  - Metrics monitoring with Prometheus and Grafana
 
 ### Examples from this Episode
 
 Please check out the following examples in the [Episode 10 README](https://github.com/geerlingguy/kubernetes-101/tree/master/episode-10):
 
-  - TODO
+  - Explore Pod logs with Lens
+  - Log into Nodes and Pods with Lens
+  - Install Prometheus and Grafana using Helm
+  - Browse Grafana Dashboards
 
 ### Don't miss out!
 
