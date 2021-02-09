@@ -5,8 +5,8 @@
     <description>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</description>
     <link>https://kube101.jeffgeerling.com/</link>
     <atom:link href="https://kube101.jeffgeerling.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Feb 2021 22:20:56 +0000</pubDate>
-    <lastBuildDate>Tue, 09 Feb 2021 22:20:56 +0000</lastBuildDate>
+    <pubDate>Tue, 09 Feb 2021 22:22:41 +0000</pubDate>
+    <lastBuildDate>Tue, 09 Feb 2021 22:22:41 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -525,7 +525,7 @@
       &lt;td style=&quot;text-align: left&quot;&gt;10&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Feb 10, 2021&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Monitoring with Lens, Prometheus, and Grafana&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;TBD&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zW-E8THfvPY&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-10&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
