@@ -162,11 +162,15 @@ $ kubectl get deployments -n monitoring -w
 
 ### Access Grafana
 
-Once deployed, you can access Grafana using the default `admin` account and the password stored in the `prometheus-grafana` secret. To get the password, run this command:
+Once deployed, you can access Grafana using the default `admin` account and the default password `prom-operator`.
+
+The Grafana password is stored in the `prometheus-grafana` secret, which you can view with the following command:
 
 ```
 $ kubectl get secret -n monitoring prometheus-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
 ```
+
+> You can change the password via the parameters passed to the Helm chart when you install it. You should override this password if you're running Grafana in production!
 
 To access Grafana in your browser, run:
 
@@ -175,6 +179,18 @@ $ kubectl port-forward -n monitoring service/prometheus-grafana 3000:80
 ```
 
 Then open your browser and visit `http://localhost:3000/` and log in with the password you found from the earlier command.
+
+But wait! If our cluster already has an Ingress Controller and cert-manager, it's even easier to access Grafana. You can add an Ingress resource for Grafana just like we did for Drupal in episode 6, and Nginx and cert-manager will work in tandem to give you a nice, friendly URL and TLS certificate for HTTPS access.
+
+See the example [`grafana-ingress-tls.yml`](k8s-manifests/grafana-ingress-tls.yml) manifest—which is very similar to the Drupal Ingress manifest—and apply it to the cluster with:
+
+```
+$ kubectl apply -f grafana-ingress-tls.yml
+```
+
+After a couple minutes, a cert should be acquired, and you can access Grafana at a friendlier URL: `https://grafana.kube101.jeffgeerling.com/`
+
+### Grafana Dashboards
 
 If you go to Dashboards > Manage, you'll see a list of the default dashboards that ship with the kube-prometheus-stack, including a number of dashboards for Compute Resources, Networking, and even Nodes.
 
