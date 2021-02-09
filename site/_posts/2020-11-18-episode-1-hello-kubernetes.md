@@ -26,4 +26,4 @@ Check out the [Instructions for Minikube](https://github.com/geerlingguy/kuberne
 
 ### Don't miss out!
 
-All the episodes are being live streamed on Wednesdays on [Jeff Geerling's YouTube channel](https://www.youtube.com/c/JeffGeerling)—subscribe so you don't miss it!
+All episodes are live streamed on [Jeff Geerling's YouTube channel](https://www.youtube.com/c/JeffGeerling)—subscribe so you don't miss out on future content!
