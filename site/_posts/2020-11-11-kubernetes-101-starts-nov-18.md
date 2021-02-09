@@ -32,7 +32,7 @@ Even if you have already used a managed Kubernetes service before, learn more ab
 
 ### Episodes
 
-The full list of episodes will be posted soon!
+See the [full episode list here]({% post_url 2020-11-12-kubernetes-101-episode-list %})!
 
 ### Special thanks
 
