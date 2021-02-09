@@ -1,6 +1,6 @@
 ---
 title: "Announcing the Kubernetes 101 Book!"
-date: 2021-02-10 10:00:00 -0600
+date: 2021-02-10 09:45:00 -0600
 categories: announcements, book
 layout: post
 ---
