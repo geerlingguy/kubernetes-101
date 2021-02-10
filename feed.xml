@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kube101.jeffgeerling.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kube101.jeffgeerling.com/" rel="alternate" type="text/html" /><updated>2021-02-09T22:22:41+00:00</updated><id>https://kube101.jeffgeerling.com/feed.xml</id><title type="html">Kubernetes 101</title><subtitle>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</subtitle><entry><title type="html">Episode 9: GitOps and Lagoon - an Interview with Michael Schmid</title><link href="https://kube101.jeffgeerling.com/2021/episode-9-interview-michael-schmid" rel="alternate" type="text/html" title="Episode 9: GitOps and Lagoon - an Interview with Michael Schmid" /><published>2021-02-03T15:00:00+00:00</published><updated>2021-02-03T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2021/episode-9-interview-michael-schmid</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2021/episode-9-interview-michael-schmid">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=D5QOwhLE3mY&quot;&gt;Episode 9&lt;/a&gt; is live! The episode streamed live on February 3, 2021, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://kube101.jeffgeerling.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kube101.jeffgeerling.com/" rel="alternate" type="text/html" /><updated>2021-02-10T15:47:09+00:00</updated><id>https://kube101.jeffgeerling.com/feed.xml</id><title type="html">Kubernetes 101</title><subtitle>A YouTube streaming series on Kubernetes and container-based infrastructure by Jeff Geerling.</subtitle><entry><title type="html">Announcing the Kubernetes 101 Book!</title><link href="https://kube101.jeffgeerling.com/2021/kubernetes-101-book" rel="alternate" type="text/html" title="Announcing the Kubernetes 101 Book!" /><published>2021-02-10T15:45:00+00:00</published><updated>2021-02-10T15:45:00+00:00</updated><id>https://kube101.jeffgeerling.com/2021/kubernetes-101-book</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2021/kubernetes-101-book">&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;a href=&quot;https://www.kubernetes101book.com&quot;&gt;
+    &lt;img src=&quot;/assets/images/kubernetes-101-book-cover.jpg&quot; width=&quot;260&quot; height=&quot;390&quot; alt=&quot;Kubernetes 101 Book by Jeff Geerling&quot; class=&quot;parent-img-responsive&quot; /&gt;&lt;span&gt;&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The Kubernetes 101 YouTube series was so popular, I decided to translate everything into a short, concise book. The Kubernetes 101 book is the easiest introduction to container-based infrastructure.&lt;/p&gt;
+
+&lt;p&gt;All ten episodes of the video series are distilled into chapters to guide you through your journey starting out in cloud-native infrastructure.&lt;/p&gt;
+
+&lt;p&gt;You’ll learn about containers, application deployment, scaling, and monitoring. And if you’re looking for something a bit deeper, you can check out my other book on &lt;em&gt;automating&lt;/em&gt; Kubernetes, &lt;a href=&quot;https://www.ansibleforkubernetes.com&quot;&gt;Ansible for Kubernetes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;updates-free-forever&quot;&gt;Updates Free Forever!&lt;/h3&gt;
+
+&lt;p&gt;Just like my other books, I’ll keep this book up to date as often as I’m able, and if you buy an ebook copy, you will get access to those updates free, forever!&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, I haven’t yet found a way to push updates out to paperback users.&lt;/p&gt;
+
+&lt;h3 id=&quot;about-the-author&quot;&gt;About the Author&lt;/h3&gt;
+
+&lt;p&gt;This book was written by &lt;a href=&quot;https://www.jeffgeerling.com&quot;&gt;Jeff Geerling&lt;/a&gt;, author of &lt;a href=&quot;https://www.ansiblefordevops.com&quot;&gt;Ansible for DevOps&lt;/a&gt; and &lt;a href=&quot;https://www.ansibleforkubernetes.com&quot;&gt;Ansible for Kubernetes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Visit the &lt;a href=&quot;https://www.kubernetes101book.com&quot;&gt;www.kubernetes101book.com&lt;/a&gt; website for more information or to buy the book.&lt;/p&gt;</content><author><name></name></author><category term="announcements," /><category term="book" /><summary type="html"></summary></entry><entry><title type="html">Episode 10: Monitoring with Lens, Prometheus, and Grafana</title><link href="https://kube101.jeffgeerling.com/2021/episode-10-monitoring-lens-prometheus-grafana" rel="alternate" type="text/html" title="Episode 10: Monitoring with Lens, Prometheus, and Grafana" /><published>2021-02-10T15:00:00+00:00</published><updated>2021-02-10T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2021/episode-10-monitoring-lens-prometheus-grafana</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2021/episode-10-monitoring-lens-prometheus-grafana">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zW-E8THfvPY&quot;&gt;Episode 10&lt;/a&gt; is live! The episode streamed live on February 10, 2021, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
+  &lt;a href=&quot;https://www.youtube.com/watch?v=zW-E8THfvPY&quot;&gt;
+    &lt;img src=&quot;/assets/images/episode-10.jpg&quot; width=&quot;600&quot; height=&quot;338&quot; alt=&quot;Kubernetes 101 - Episode 10 - Monitoring with Lens, Prometheus, and Grafana&quot; class=&quot;parent-img-responsive&quot; /&gt;&lt;span&gt;&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;topics-covered-in-this-episode&quot;&gt;Topics Covered in this Episode&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cluster visibility with Lens&lt;/li&gt;
+  &lt;li&gt;Metrics monitoring with Prometheus and Grafana&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;examples-from-this-episode&quot;&gt;Examples from this Episode&lt;/h3&gt;
+
+&lt;p&gt;Please check out the following examples in the &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/tree/master/episode-10&quot;&gt;Episode 10 README&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Explore Pod logs with Lens&lt;/li&gt;
+  &lt;li&gt;Log into Nodes and Pods with Lens&lt;/li&gt;
+  &lt;li&gt;Install Prometheus and Grafana using Helm&lt;/li&gt;
+  &lt;li&gt;Browse Grafana Dashboards&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
+
+&lt;p&gt;All episodes are live streamed on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss out on future content!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="monitoring," /><category term="lens," /><category term="prometheus," /><category term="grafana" /><summary type="html">Episode 10 is live! The episode streamed live on February 10, 2021, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 9: GitOps and Lagoon - an Interview with Michael Schmid</title><link href="https://kube101.jeffgeerling.com/2021/episode-9-interview-michael-schmid" rel="alternate" type="text/html" title="Episode 9: GitOps and Lagoon - an Interview with Michael Schmid" /><published>2021-02-03T15:00:00+00:00</published><updated>2021-02-03T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2021/episode-9-interview-michael-schmid</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2021/episode-9-interview-michael-schmid">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=D5QOwhLE3mY&quot;&gt;Episode 9&lt;/a&gt; is live! The episode streamed live on February 3, 2021, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
   &lt;a href=&quot;https://www.youtube.com/watch?v=D5QOwhLE3mY&quot;&gt;
@@ -18,7 +68,7 @@
 
 &lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
 
-&lt;p&gt;All the episodes are being live streamed on Wednesdays on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss it!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="managed," /><category term="hosting," /><category term="lagoon," /><category term="amazee" /><summary type="html">Episode 9 is live! The episode streamed live on February 3, 2021, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 8: Kube, meet Pi</title><link href="https://kube101.jeffgeerling.com/2021/episode-8-kube-meet-pi" rel="alternate" type="text/html" title="Episode 8: Kube, meet Pi" /><published>2021-01-27T15:00:00+00:00</published><updated>2021-01-27T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2021/episode-8-kube-meet-pi</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2021/episode-8-kube-meet-pi">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_r1wN6cD32w&quot;&gt;Episode 8&lt;/a&gt; is live! The episode streamed live on January 27, 2021, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
+&lt;p&gt;All episodes are live streamed on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss out on future content!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="managed," /><category term="hosting," /><category term="lagoon," /><category term="amazee" /><summary type="html">Episode 9 is live! The episode streamed live on February 3, 2021, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 8: Kube, meet Pi</title><link href="https://kube101.jeffgeerling.com/2021/episode-8-kube-meet-pi" rel="alternate" type="text/html" title="Episode 8: Kube, meet Pi" /><published>2021-01-27T15:00:00+00:00</published><updated>2021-01-27T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2021/episode-8-kube-meet-pi</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2021/episode-8-kube-meet-pi">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_r1wN6cD32w&quot;&gt;Episode 8&lt;/a&gt; is live! The episode streamed live on January 27, 2021, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
   &lt;a href=&quot;https://www.youtube.com/watch?v=_r1wN6cD32w&quot;&gt;
@@ -47,7 +97,7 @@
 
 &lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
 
-&lt;p&gt;All the episodes are being live streamed on Wednesdays on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss it!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="apps," /><category term="raspberry" /><category term="pi," /><category term="bare" /><category term="metal," /><category term="cluster" /><summary type="html">Episode 8 is live! The episode streamed live on January 27, 2021, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 7: Hello, Operator!</title><link href="https://kube101.jeffgeerling.com/2021/episode-7-hello-operator" rel="alternate" type="text/html" title="Episode 7: Hello, Operator!" /><published>2021-01-20T15:00:00+00:00</published><updated>2021-01-20T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2021/episode-7-hello-operator</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2021/episode-7-hello-operator">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Q7G6DBaIJ1c&quot;&gt;Episode 7&lt;/a&gt; is live! The episode streamed live on January 20, 2021, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
+&lt;p&gt;All episodes are live streamed on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss out on future content!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="apps," /><category term="raspberry" /><category term="pi," /><category term="bare" /><category term="metal," /><category term="cluster" /><summary type="html">Episode 8 is live! The episode streamed live on January 27, 2021, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 7: Hello, Operator!</title><link href="https://kube101.jeffgeerling.com/2021/episode-7-hello-operator" rel="alternate" type="text/html" title="Episode 7: Hello, Operator!" /><published>2021-01-20T15:00:00+00:00</published><updated>2021-01-20T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2021/episode-7-hello-operator</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2021/episode-7-hello-operator">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Q7G6DBaIJ1c&quot;&gt;Episode 7&lt;/a&gt; is live! The episode streamed live on January 20, 2021, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
   &lt;a href=&quot;https://www.youtube.com/watch?v=Q7G6DBaIJ1c&quot;&gt;
@@ -76,7 +126,7 @@
 
 &lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
 
-&lt;p&gt;All the episodes are being live streamed on Wednesdays on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss it!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="apps," /><category term="operators," /><category term="controllers" /><summary type="html">Episode 7 is live! The episode streamed live on January 20, 2021, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 6: DNS, TLS, Cron, Logging</title><link href="https://kube101.jeffgeerling.com/2021/episode-6-dns-tls-cron-logging" rel="alternate" type="text/html" title="Episode 6: DNS, TLS, Cron, Logging" /><published>2021-01-06T15:00:00+00:00</published><updated>2021-01-06T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2021/episode-6-dns-tls-cron-logging</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2021/episode-6-dns-tls-cron-logging">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=E1_uINjq2As&quot;&gt;Episode 6&lt;/a&gt; is live! The episode streamed live on January 6, 2021, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
+&lt;p&gt;All episodes are live streamed on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss out on future content!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="apps," /><category term="operators," /><category term="controllers" /><summary type="html">Episode 7 is live! The episode streamed live on January 20, 2021, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 6: DNS, TLS, Cron, Logging</title><link href="https://kube101.jeffgeerling.com/2021/episode-6-dns-tls-cron-logging" rel="alternate" type="text/html" title="Episode 6: DNS, TLS, Cron, Logging" /><published>2021-01-06T15:00:00+00:00</published><updated>2021-01-06T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2021/episode-6-dns-tls-cron-logging</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2021/episode-6-dns-tls-cron-logging">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=E1_uINjq2As&quot;&gt;Episode 6&lt;/a&gt; is live! The episode streamed live on January 6, 2021, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
   &lt;a href=&quot;https://www.youtube.com/watch?v=E1_uINjq2As&quot;&gt;
@@ -108,7 +158,7 @@
 
 &lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
 
-&lt;p&gt;All the episodes are being live streamed on Wednesdays on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss it!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="apps," /><category term="ingress," /><category term="dns," /><category term="tls," /><category term="cron," /><category term="logging," /><category term="logs" /><summary type="html">Episode 6 is live! The episode streamed live on January 6, 2021, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 5: Scaling Drupal in K8s</title><link href="https://kube101.jeffgeerling.com/2020/episode-5-scaling-drupal-in-k8s" rel="alternate" type="text/html" title="Episode 5: Scaling Drupal in K8s" /><published>2020-12-16T15:00:00+00:00</published><updated>2020-12-16T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2020/episode-5-scaling-drupal-in-k8s</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2020/episode-5-scaling-drupal-in-k8s">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=euZdS5b2siA&quot;&gt;Episode 5&lt;/a&gt; is live! The episode streamed live on December 16, 2020, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
+&lt;p&gt;All episodes are live streamed on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss out on future content!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="apps," /><category term="ingress," /><category term="dns," /><category term="tls," /><category term="cron," /><category term="logging," /><category term="logs" /><summary type="html">Episode 6 is live! The episode streamed live on January 6, 2021, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 5: Scaling Drupal in K8s</title><link href="https://kube101.jeffgeerling.com/2020/episode-5-scaling-drupal-in-k8s" rel="alternate" type="text/html" title="Episode 5: Scaling Drupal in K8s" /><published>2020-12-16T15:00:00+00:00</published><updated>2020-12-16T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2020/episode-5-scaling-drupal-in-k8s</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2020/episode-5-scaling-drupal-in-k8s">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=euZdS5b2siA&quot;&gt;Episode 5&lt;/a&gt; is live! The episode streamed live on December 16, 2020, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
   &lt;a href=&quot;https://www.youtube.com/watch?v=euZdS5b2siA&quot;&gt;
@@ -144,7 +194,7 @@
 
 &lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
 
-&lt;p&gt;All the episodes are being live streamed on Wednesdays on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss it!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="apps," /><category term="deployments," /><category term="databases," /><category term="filesystems," /><category term="hpa" /><summary type="html">Episode 5 is live! The episode streamed live on December 16, 2020, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 4: Deploying Apps</title><link href="https://kube101.jeffgeerling.com/2020/episode-4-real-world-apps" rel="alternate" type="text/html" title="Episode 4: Deploying Apps" /><published>2020-12-09T15:00:00+00:00</published><updated>2020-12-09T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2020/episode-4-real-world-apps</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2020/episode-4-real-world-apps">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=mrxA8g3w6ic&quot;&gt;Episode 4&lt;/a&gt; is live! The episode streamed live on December 9, 2020, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
+&lt;p&gt;All episodes are live streamed on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss out on future content!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="apps," /><category term="deployments," /><category term="databases," /><category term="filesystems," /><category term="hpa" /><summary type="html">Episode 5 is live! The episode streamed live on December 16, 2020, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 4: Deploying Apps</title><link href="https://kube101.jeffgeerling.com/2020/episode-4-real-world-apps" rel="alternate" type="text/html" title="Episode 4: Deploying Apps" /><published>2020-12-09T15:00:00+00:00</published><updated>2020-12-09T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2020/episode-4-real-world-apps</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2020/episode-4-real-world-apps">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=mrxA8g3w6ic&quot;&gt;Episode 4&lt;/a&gt; is live! The episode streamed live on December 9, 2020, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
   &lt;a href=&quot;https://www.youtube.com/watch?v=mrxA8g3w6ic&quot;&gt;
@@ -179,7 +229,7 @@
 
 &lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
 
-&lt;p&gt;All the episodes are being live streamed on Wednesdays on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss it!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="apps," /><category term="deployments" /><summary type="html">Episode 4 is live! The episode streamed live on December 9, 2020, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 3: Deploying Apps</title><link href="https://kube101.jeffgeerling.com/2020/episode-3-deploying-apps" rel="alternate" type="text/html" title="Episode 3: Deploying Apps" /><published>2020-12-02T15:00:00+00:00</published><updated>2020-12-02T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2020/episode-3-deploying-apps</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2020/episode-3-deploying-apps">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nn9J9sWLj_w&quot;&gt;Episode 3&lt;/a&gt; is live! The episode streamed live on December 2, 2020, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
+&lt;p&gt;All episodes are live streamed on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss out on future content!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="apps," /><category term="deployments" /><summary type="html">Episode 4 is live! The episode streamed live on December 9, 2020, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 3: Deploying Apps</title><link href="https://kube101.jeffgeerling.com/2020/episode-3-deploying-apps" rel="alternate" type="text/html" title="Episode 3: Deploying Apps" /><published>2020-12-02T15:00:00+00:00</published><updated>2020-12-02T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2020/episode-3-deploying-apps</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2020/episode-3-deploying-apps">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nn9J9sWLj_w&quot;&gt;Episode 3&lt;/a&gt; is live! The episode streamed live on December 2, 2020, but the video is available free and on-demand—just click the image below:&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
   &lt;a href=&quot;https://www.youtube.com/watch?v=nn9J9sWLj_w&quot;&gt;
@@ -212,7 +262,7 @@
 
 &lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
 
-&lt;p&gt;All the episodes are being live streamed on Wednesdays on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss it!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="images," /><category term="deployments" /><summary type="html">Episode 3 is live! The episode streamed live on December 2, 2020, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 2: Containers</title><link href="https://kube101.jeffgeerling.com/2020/episode-2-containers" rel="alternate" type="text/html" title="Episode 2: Containers" /><published>2020-11-25T15:00:00+00:00</published><updated>2020-11-25T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2020/episode-2-containers</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2020/episode-2-containers">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AHDrejEv0SM&quot;&gt;Episode 2&lt;/a&gt; of Kubernetes 101 is here! The episode was streamed live on November 25, 2020, but you can view the video on-demand, free forever—just click the image below:&lt;/p&gt;
+&lt;p&gt;All episodes are live streamed on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss out on future content!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="images," /><category term="deployments" /><summary type="html">Episode 3 is live! The episode streamed live on December 2, 2020, but the video is available free and on-demand—just click the image below:</summary></entry><entry><title type="html">Episode 2: Containers</title><link href="https://kube101.jeffgeerling.com/2020/episode-2-containers" rel="alternate" type="text/html" title="Episode 2: Containers" /><published>2020-11-25T15:00:00+00:00</published><updated>2020-11-25T15:00:00+00:00</updated><id>https://kube101.jeffgeerling.com/2020/episode-2-containers</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2020/episode-2-containers">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AHDrejEv0SM&quot;&gt;Episode 2&lt;/a&gt; of Kubernetes 101 is here! The episode was streamed live on November 25, 2020, but you can view the video on-demand, free forever—just click the image below:&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
   &lt;a href=&quot;https://www.youtube.com/watch?v=AHDrejEv0SM&quot;&gt;
@@ -237,103 +287,4 @@
 
 &lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
 
-&lt;p&gt;All the episodes are being live streamed on Wednesdays on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss it!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="containers," /><category term="docker" /><summary type="html">Episode 2 of Kubernetes 101 is here! The episode was streamed live on November 25, 2020, but you can view the video on-demand, free forever—just click the image below:</summary></entry><entry><title type="html">Episode 1: Hello, Kubernetes!</title><link href="https://kube101.jeffgeerling.com/2020/episode-1-hello-kubernetes" rel="alternate" type="text/html" title="Episode 1: Hello, Kubernetes!" /><published>2020-11-18T14:40:00+00:00</published><updated>2020-11-18T14:40:00+00:00</updated><id>https://kube101.jeffgeerling.com/2020/episode-1-hello-kubernetes</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2020/episode-1-hello-kubernetes">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=IcslsH7OoYo&quot;&gt;Episode 1&lt;/a&gt; of Kubernetes 101 is here! The episode was streamed live on November 18, 2020, but you can view the video on-demand, free forever—just click the image below:&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot; class=&quot;thumb-wrapper&quot;&gt;
-  &lt;a href=&quot;https://www.youtube.com/watch?v=IcslsH7OoYo&quot;&gt;
-    &lt;img src=&quot;/assets/images/episode-01.jpg&quot; width=&quot;600&quot; height=&quot;338&quot; alt=&quot;Kubernetes 101 - Episode 1 - Hello, Kubernetes!&quot; class=&quot;parent-img-responsive&quot; /&gt;&lt;span&gt;&lt;/span&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;topics-covered-in-this-episode&quot;&gt;Topics Covered in this Episode&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;History of clustered computing.&lt;/li&gt;
-  &lt;li&gt;Kubernetes origins and the CNCF&lt;/li&gt;
-  &lt;li&gt;Different ways you can try Kubernetes (Minikube, KinD, K3s, etc.)&lt;/li&gt;
-  &lt;li&gt;Building our first Kubernetes cluster with Minikube&lt;/li&gt;
-  &lt;li&gt;Where to go for help and the Kubernetes Community&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;examples-from-this-episode&quot;&gt;Examples from this Episode&lt;/h3&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/tree/master/episode-01#instructions-for-minikube&quot;&gt;Instructions for Minikube&lt;/a&gt; if you want to follow along with the list of commands Jeff ran during the video!&lt;/p&gt;
-
-&lt;h3 id=&quot;dont-miss-out&quot;&gt;Don’t miss out!&lt;/h3&gt;
-
-&lt;p&gt;All the episodes are being live streamed on Wednesdays on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss it!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="minikube" /><summary type="html">Episode 1 of Kubernetes 101 is here! The episode was streamed live on November 18, 2020, but you can view the video on-demand, free forever—just click the image below:</summary></entry><entry><title type="html">Kubernetes 101 Episode List</title><link href="https://kube101.jeffgeerling.com/2020/kubernetes-101-episode-list" rel="alternate" type="text/html" title="Kubernetes 101 Episode List" /><published>2020-11-12T16:10:00+00:00</published><updated>2020-11-12T16:10:00+00:00</updated><id>https://kube101.jeffgeerling.com/2020/kubernetes-101-episode-list</id><content type="html" xml:base="https://kube101.jeffgeerling.com/2020/kubernetes-101-episode-list">&lt;p&gt;Click on an episode title to go to its web page with more information about the episode. Click on the links to watch the episode on YouTube or view and run examples from the episode.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;#&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Air Date&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Title&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Links&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Nov 18, 2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2020/episode-1-hello-kubernetes&quot;&gt;&lt;strong&gt;Hello, Kubernetes!&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=IcslsH7OoYo&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/tree/master/episode-01&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Nov 25, 2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2020/episode-2-containers&quot;&gt;&lt;strong&gt;Containers&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AHDrejEv0SM&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-02&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;3&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Dec 2, 2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2020/episode-3-deploying-apps&quot;&gt;&lt;strong&gt;Deploying Apps&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nn9J9sWLj_w&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-03&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;4&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Dec 9, 2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2020/episode-4-real-world-apps&quot;&gt;&lt;strong&gt;Real-world apps&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=mrxA8g3w6ic&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-04&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Dec 16, 2020&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2020/episode-5-scaling-drupal-in-k8s&quot;&gt;&lt;strong&gt;Scaling Drupal in K8s&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=euZdS5b2siA&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-05&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Jan 6, 2021&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2021/episode-6-dns-tls-cron-logging&quot;&gt;&lt;strong&gt;DNS, TLS, Cron, Logging&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=E1_uINjq2As&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-06&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;7&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Jan 20, 2021&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2021/episode-7-hello-operator&quot;&gt;&lt;strong&gt;Hello, Operator!&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Q7G6DBaIJ1c&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-07&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;8&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Jan 27, 2021&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2021/episode-8-kube-meet-pi&quot;&gt;&lt;strong&gt;Kube, Meet Pi&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_r1wN6cD32w&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-08&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;9&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Feb 3, 2021&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;/2021/episode-9-interview-michael-schmid&quot;&gt;&lt;strong&gt;GitOps and Lagoon - an Interview with Michael Schmid&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=D5QOwhLE3mY&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-09&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;10&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Feb 10, 2021&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Monitoring with Lens, Prometheus, and Grafana&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zW-E8THfvPY&quot;&gt;Video&lt;/a&gt;, &lt;a href=&quot;https://github.com/geerlingguy/kubernetes-101/blob/master/episode-10&quot;&gt;Examples&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;View all the episodes in the &lt;a href=&quot;https://www.youtube.com/playlist?list=PL2_OBreMn7FoYmfx27iSwocotjiikS5BD&quot;&gt;Kubernetes 101 Playlist&lt;/a&gt; on YouTube.&lt;/p&gt;</content><author><name></name></author><category term="announcements" /><summary type="html">Click on an episode title to go to its web page with more information about the episode. Click on the links to watch the episode on YouTube or view and run examples from the episode.</summary></entry></feed>
+&lt;p&gt;All episodes are live streamed on &lt;a href=&quot;https://www.youtube.com/c/JeffGeerling&quot;&gt;Jeff Geerling’s YouTube channel&lt;/a&gt;—subscribe so you don’t miss out on future content!&lt;/p&gt;</content><author><name></name></author><category term="episodes," /><category term="containers," /><category term="docker" /><summary type="html">Episode 2 of Kubernetes 101 is here! The episode was streamed live on November 25, 2020, but you can view the video on-demand, free forever—just click the image below:</summary></entry></feed>

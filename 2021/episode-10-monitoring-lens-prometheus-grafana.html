@@ -8,21 +8,21 @@
   <link rel="stylesheet" href="/assets/css/print.css" media="print" type="text/css">
   <link rel="alternate" type="application/rss+xml" title="Kubernetes 101" href="/rss.xml">
 <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Episode 4: Deploying Apps | Kubernetes 101</title>
+<title>Episode 10: Monitoring with Lens, Prometheus, and Grafana | Kubernetes 101</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Episode 4: Deploying Apps" />
+<meta property="og:title" content="Episode 10: Monitoring with Lens, Prometheus, and Grafana" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Episode 4 is live! The episode streamed live on December 9, 2020, but the video is available free and on-demand—just click the image below:" />
-<meta property="og:description" content="Episode 4 is live! The episode streamed live on December 9, 2020, but the video is available free and on-demand—just click the image below:" />
-<link rel="canonical" href="https://kube101.jeffgeerling.com/2020/episode-4-real-world-apps" />
-<meta property="og:url" content="https://kube101.jeffgeerling.com/2020/episode-4-real-world-apps" />
+<meta name="description" content="Episode 10 is live! The episode streamed live on February 10, 2021, but the video is available free and on-demand—just click the image below:" />
+<meta property="og:description" content="Episode 10 is live! The episode streamed live on February 10, 2021, but the video is available free and on-demand—just click the image below:" />
+<link rel="canonical" href="https://kube101.jeffgeerling.com/2021/episode-10-monitoring-lens-prometheus-grafana" />
+<meta property="og:url" content="https://kube101.jeffgeerling.com/2021/episode-10-monitoring-lens-prometheus-grafana" />
 <meta property="og:site_name" content="Kubernetes 101" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-12-09T15:00:00+00:00" />
+<meta property="article:published_time" content="2021-02-10T15:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Episode 4: Deploying Apps" />
+<meta property="twitter:title" content="Episode 10: Monitoring with Lens, Prometheus, and Grafana" />
 <script type="application/ld+json">
-{"dateModified":"2020-12-09T15:00:00+00:00","datePublished":"2020-12-09T15:00:00+00:00","description":"Episode 4 is live! The episode streamed live on December 9, 2020, but the video is available free and on-demand—just click the image below:","url":"https://kube101.jeffgeerling.com/2020/episode-4-real-world-apps","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://kube101.jeffgeerling.com/2020/episode-4-real-world-apps"},"headline":"Episode 4: Deploying Apps","@context":"https://schema.org"}</script>
+{"dateModified":"2021-02-10T15:00:00+00:00","datePublished":"2021-02-10T15:00:00+00:00","description":"Episode 10 is live! The episode streamed live on February 10, 2021, but the video is available free and on-demand—just click the image below:","url":"https://kube101.jeffgeerling.com/2021/episode-10-monitoring-lens-prometheus-grafana","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://kube101.jeffgeerling.com/2021/episode-10-monitoring-lens-prometheus-grafana"},"headline":"Episode 10: Monitoring with Lens, Prometheus, and Grafana","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -40,42 +40,35 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <h1 class="page-title">Episode 4: Deploying Apps</h1>
+          <h1 class="page-title">Episode 10: Monitoring with Lens, Prometheus, and Grafana</h1>
           <div class="post-meta">
-            Dec 9, 2020
+            Feb 10, 2021
           </div>
           <div class="post-content" itemprop="articleBody">
-            <p><a href="https://www.youtube.com/watch?v=mrxA8g3w6ic">Episode 4</a> is live! The episode streamed live on December 9, 2020, but the video is available free and on-demand—just click the image below:</p>
+            <p><a href="https://www.youtube.com/watch?v=zW-E8THfvPY">Episode 10</a> is live! The episode streamed live on February 10, 2021, but the video is available free and on-demand—just click the image below:</p>
 
 <div style="text-align: center;" class="thumb-wrapper">
-  <a href="https://www.youtube.com/watch?v=mrxA8g3w6ic">
-    <img src="/assets/images/episode-04.jpg" width="600" height="338" alt="Kubernetes 101 - Episode 4 - Real-world Apps" class="parent-img-responsive" /><span></span>
+  <a href="https://www.youtube.com/watch?v=zW-E8THfvPY">
+    <img src="/assets/images/episode-10.jpg" width="600" height="338" alt="Kubernetes 101 - Episode 10 - Monitoring with Lens, Prometheus, and Grafana" class="parent-img-responsive" /><span></span>
   </a>
 </div>
 
 <h3 id="topics-covered-in-this-episode">Topics Covered in this Episode</h3>
 
 <ul>
-  <li>Deploying Drupal on a traditional LAMP server</li>
-  <li>Deploying Drupal into Kubernetes using Helm</li>
-  <li>Deploying Drupal into a multi-node Kubernetes cluster</li>
-  <li>Scaling Drupal horizontally reveals some problems:
-    <ul>
-      <li>Persistent files</li>
-      <li>Persistent database</li>
-      <li>How do we serve from a domain and get TLS working?</li>
-    </ul>
-  </li>
+  <li>Cluster visibility with Lens</li>
+  <li>Metrics monitoring with Prometheus and Grafana</li>
 </ul>
 
 <h3 id="examples-from-this-episode">Examples from this Episode</h3>
 
-<p>Please check out the following examples in the <a href="https://github.com/geerlingguy/kubernetes-101/tree/master/episode-04">Episode 4 README</a>:</p>
+<p>Please check out the following examples in the <a href="https://github.com/geerlingguy/kubernetes-101/tree/master/episode-10">Episode 10 README</a>:</p>
 
 <ul>
-  <li>Installing Drupal on a Traditional LAMP server</li>
-  <li>Installing Drupal on Kubernetes using Bitnami’s Helm Chart</li>
-  <li>Drupal Directly in Kubernetes - Let’s Do it [Mostly] Right!</li>
+  <li>Explore Pod logs with Lens</li>
+  <li>Log into Nodes and Pods with Lens</li>
+  <li>Install Prometheus and Grafana using Helm</li>
+  <li>Browse Grafana Dashboards</li>
 </ul>
 
 <h3 id="dont-miss-out">Don’t miss out!</h3>
