@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/geerlingguy/kubernetes-101/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/kubernetes-101/actions?query=workflow%3ACI)
 
-A YouTube live streaming series by Jeff Geerling.
+A YouTube live streaming series and book by Jeff Geerling.
 
 This repository contains code examples from the series and the code that powers the [Kubernetes 101 website](https://kube101.jeffgeerling.com).
 
@@ -18,12 +18,16 @@ Click on an episode title to see the resources for that episode:
   - [Episode 6 - DNS, TLS, Cron, Logging](episode-06): January 6, 2021
   - [Episode 7 - Hello, Operator!](episode-07): January 20, 2021
   - [Episode 8 - Kube, Meet Pi](episode-08): January 27, 2021
-  - [Episode 9 - TBD](episode-09): February 3, 2021
-  - [Episode 10 - TBD](episode-10): February 10, 2021
+  - [Episode 9 - GitOps and Lagoon](episode-09): February 3, 2021
+  - [Episode 10 - Monitoring with Lens, Prometheus, and Grafana](episode-10): February 10, 2021
+
+## Kubernetes 101 Book
+
+Check out the book inspired by this series, [Kubernetes 101](https://www.kubernetes101book.com).
 
 ## Ansible for Kubernetes
 
-Check out Jeff Geerling's book, [Ansible for Kubernetes](https://www.ansibleforkubernetes.com).
+Check out Jeff Geerling's book on automating cloud-native infrastructure, [Ansible for Kubernetes](https://www.ansibleforkubernetes.com).
 
 ## Static Jekyll site
 
