@@ -63,7 +63,7 @@ That image is used in this episode of Kubernetes 101 to demonstrate a simple Kub
 
 If you want to build the image on your own, locally, you can run:
 
-    docker build -t geerlingguy/kube101:intro
+    docker build -t geerlingguy/kube101:intro .
 
 And to run the image on its own, run:
 
