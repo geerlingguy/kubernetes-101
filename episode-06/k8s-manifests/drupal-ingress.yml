@@ -17,5 +17,5 @@ spec:
             port:
               number: 80
         path: /
-        pathType: Exact # | "Prefix" | "ImplementationSpecific "
+        pathType: ImplementationSpecific
 
