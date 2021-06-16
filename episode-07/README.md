@@ -209,7 +209,7 @@ make docker-build docker-push IMG=ttl.sh/example-memcached:1h
 
 > [ttl.sh](https://ttl.sh) allows you to push ephemeral container images to a public repository for testing purposes. Note that the image will be automatically removed after an hour. For real-world usage, you should push the operator image to a persistent registry!
 
-> Currently there's [a bug](https://github.com/operator-framework/operator-sdk/issues/4403) in the Operator SDK that prevents the generated Makefile from working on macOS Big Sur. The fix is to comment out the `SHELL` line in the Makefile before building.
+> Currently there's [a bug](https://github.com/operator-framework/operator-sdk/issues/4403) in the Operator SDK that prevents the generated Makefile from working on macOS Big Sur and [some WSL2 distributions](https://github.com/geerlingguy/kubernetes-101/issues/21). The fix is to comment out the `SHELL` line in the Makefile before building.
 
 #### Running an Ansible Operator
 
