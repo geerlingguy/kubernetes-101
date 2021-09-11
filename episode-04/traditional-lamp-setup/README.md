@@ -8,7 +8,7 @@ Run `vagrant ssh` to log into the VM, then run all the commands below:
 # Update apt caches.
 sudo apt update
 
-# Install MySQL (or in this case, MariaDB) and unzip packages.
+# Install database software and the unzip package.
 sudo apt install -y mariadb-server mariadb-client unzip
 
 # Run through the installation process.
