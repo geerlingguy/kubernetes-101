@@ -85,7 +85,7 @@ Once you create the secret, you need to modify the `hello-go` deployment to make
 
 So edit the deployment with:
 
-    kubectl edit depolyment hello-go
+    kubectl edit deployment hello-go
 
 And add a new `imagePullSecrets:` section under `spec.template.spec` like so:
 
