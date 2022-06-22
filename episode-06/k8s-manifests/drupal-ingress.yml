@@ -1,5 +1,5 @@
 ---
-apiVersion: networking.k8s.io/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: drupal
@@ -11,6 +11,11 @@ spec:
   - host: ep6.kube101.jeffgeerling.com
     http:
       paths:
-      - backend:
-          serviceName: drupal
-          servicePort: 80
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: drupal
+            port:
+              number: 80
+
