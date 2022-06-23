@@ -162,7 +162,7 @@ So open `roles/memcached/tasks/main.yml`—this is the task file that is run whe
 ```yaml
 ---
 - name: Manage a memcached deployment with {{ size }} replicas.
-  community.kubernetes.k8s:
+  k8s:
     definition:
       kind: Deployment
       apiVersion: apps/v1
@@ -204,7 +204,7 @@ To be complete, you should also set an Ansible role default for the size variabl
 The operator runs inside a container image, so before you can start using the operator, you have to build the docker image and push it somewhere your Kubernetes cluster can pull it from:
 
 ```
-make docker-build docker-push IMG=ttl.sh/example-memcached:1h
+make docker-build docker-push IMG=jafolkerts/example-memcached:1.0.0
 ```
 
 > [ttl.sh](https://ttl.sh) allows you to push ephemeral container images to a public repository for testing purposes. Note that the image will be automatically removed after an hour. For real-world usage, you should push the operator image to a persistent registry!
@@ -228,7 +228,7 @@ make install
 And finally, deploy the Operator into the cluster, so it can start watching for custom resources:
 
 ```
-make deploy IMG=ttl.sh/example-memcached:1h
+make deploy IMG=jafolkerts/example-memcached:1.0.0
 ```
 
 After it's deployed, you can check on the new operator pod running in the cluster, which should be in the `memcached-operator-system` namespace:
