@@ -15,6 +15,6 @@ spec:
           - name: drupal-cron
             image: byrnedo/alpine-curl:0.1.8
             args:
-            - -s
-            - https://ep6.kube101.jeffgeerling.com/en/cron/LPgIVauewMqWtsJhWzeMkp0_5EGkTZumJE4KA4Mf-nraXiap2j5zqc31aPbVjSIHRkRN74qGpg
+            - -L
+            - http://ep6.kube101.filament-ds.com/cron/HV3NNhNc8725JFDwClRHNmOowud7bnhvGm-LTReyFwc-UHokeSumvWF47VTNEg0c5ezE3uU5zQ
           restartPolicy: OnFailure

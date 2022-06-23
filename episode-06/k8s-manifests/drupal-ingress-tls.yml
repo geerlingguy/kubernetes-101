@@ -1,5 +1,5 @@
 ---
-apiVersion: networking.k8s.io/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: drupal
@@ -10,12 +10,17 @@ metadata:
 spec:
   tls:  # This describes the TLS configuration for our site.
   - hosts:
-    - ep6.kube101.jeffgeerling.com
+    - ep6.kube101.filament-ds.com
     secretName: ep6-tls
   rules:
-  - host: ep6.kube101.jeffgeerling.com
+  - host: ep6.kube101.filament-ds.com
     http:
       paths:
-      - backend:
-          serviceName: drupal
-          servicePort: 80
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: drupal
+            port:
+              number: 80
+

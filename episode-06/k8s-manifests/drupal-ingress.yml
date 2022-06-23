@@ -8,7 +8,7 @@ metadata:
     kubernetes.io/ingress.class: nginx
 spec:
   rules:
-  - host: ep6.kube101.jeffgeerling.com
+  - host: ep6.kube101.filament-ds.com
     http:
       paths:
       - path: /
