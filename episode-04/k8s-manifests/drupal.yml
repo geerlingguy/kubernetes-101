@@ -53,7 +53,7 @@ spec:
     spec:
       initContainers:
         - name: init-files
-          image: 'drupal:9-apache'
+          image: 'drupal:9.1.0-apache'
           command: ['/bin/bash', '-c']
           args: ['cp -r /var/www/html/sites/default/files /data; chown www-data:www-data /data/ -R']
           volumeMounts:
@@ -61,7 +61,7 @@ spec:
               name: drupal-files
       containers:
         - name: drupal
-          image: 'drupal:9-apache'
+          image: 'drupal:9.1.0-apache'
           ports:
             - containerPort: 80
           livenessProbe:
